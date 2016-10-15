@@ -1,0 +1,3088 @@
+{
+	"abilities": {
+		"attk": {
+			"name": {
+				"en": "attack",
+				"ko": "암살자",
+				"ct": "mewoowo",
+				"fr": "Attaque",
+				"pi": "frigate",
+				"lt": "Žmogžudys",
+				"ne": "aanval",
+				"sv": "attack",
+				"es": "asesino",
+				"nb": "angrip",
+				"it": "assassino",
+				"hu": "támadás",
+				"pl": "atak",
+				"ru": "атака"
+			},
+			"desc": {
+				"en": "Attack with a 66% chance to hit. Enemy will counter-attack.",
+				"ru": "Нападай с 66% шанс попасть. Мишень нападёт обратно."
+			}
+		},
+		"grow": {
+			"name": {
+				"en": "grow",
+				"pl": "dorastanie",
+				"nb": "voks",
+				"pi": "construct",
+				"ne": "groei",
+				"fr": "Croissance",
+				"hu": "növendék",
+				"ru": "расти",
+				"sv": "Växa"
+			},
+			"desc": {
+				"en": "Become a lovable clone that is just like mommy or daddy.",
+				"pl": "Dorasta i z bezbronnego dziecka staje sie klonem swojego ojca lub matki.",
+				"nb": "Bli en elskbar klone som er akkurat som mor eller far.",
+				"pi": "Build a replica ship.",
+				"ne": "Wordt een schattige kloon die er net zo uit ziet als mama en papa.",
+				"fr": "Devenir un clone d'une carte parente",
+				"hu": "Legyél egy kedves anyához, apához hasonlító klón.",
+				"ru": "Стать клон, который так же, как мама или папа.",
+				"sv": "Bli en älskbar klon som är exakt som din mamma eller pappa"
+			}
+		},
+		"smmn": {
+			"name": {
+				"en": "summon",
+				"pl": "wyłożenie karty",
+				"nb": "framkall",
+				"pi": "Writ of summons",
+				"ne": "oproepen",
+				"fr": "Invoquer",
+				"hu": "idéző",
+				"ru": "вызывать",
+				"sv": "tillkalla"
+			},
+			"desc": {
+				"en": "Play a card from your hand.",
+				"pl": "Wprowadź nową kartę na pole gry.",
+				"nb": "Spill et kort fra hånden din.",
+				"pi": "Send a ship from the shipyard.",
+				"ne": "Speel een kaart in je hand.",
+				"fr": "Jouer une carte de votre main",
+				"hu": "Játsz a kezedből egy kártyával.",
+				"ru": "Положи карт.",
+				"sv": "Spela ett kort från din hand"
+			}
+		},
+		"futr": {
+			"name": {
+				"en": "future",
+				"pl": "przyszlość",
+				"nb": "framtid",
+				"pi": "tomorrow",
+				"ne": "toekomst",
+				"fr": "Futur",
+				"hu": "jővő",
+				"sv": "framtid"
+			},
+			"desc": {
+				"en": "Change the future.",
+				"pl": "Zmien przyszlość!",
+				"nb": "Forandre framtiden.",
+				"pi": "Change tomorrow.",
+				"ne": "Verander de toekomst.",
+				"fr": "Changer le futur",
+				"hu": "Változtasd meg a jővőt.",
+				"ru": "Изменяй будущее.",
+				"sv": "Förändra framtiden"
+			}
+		},
+		"rlly": {
+			"name": {
+				"en": "rally",
+				"ne": "Bijeenkomst",
+				"lt": "Mitingas",
+				"nb": "opptog",
+				"pi": "Pirate's cry",
+				"it": "rally",
+				"fr": "Ralliement",
+				"pl": "triumf",
+				"hu": "verseny",
+				"sv": "rally"
+			},
+			"desc": {
+				"en": "Produce pride, which can be use to play more cards.",
+				"ne": "Produceer trots, om meer kaarten te spelen.",
+				"lt": "Vertės generavimas, kuri leidžia naudoti daugiau kortų.",
+				"hu": "Készítsd a büszkeséged, használj több kártyát.",
+				"nb": "Produserer stolthet, som kan bli brukt for å spille fler kort.",
+				"pi": "Boosts yar pirate's pride, which lets mor' pirates arrive in the battle.",
+				"it": "Produci valore, che può essere usato per giocare più carte.",
+				"fr": "Produire de la valeur pour jouer plus de cartes",
+				"pl": "Prodokuje dume, ktora moze byc uzyta do wezwania wiecej kart.",
+				"sv": "Skapa pride, som kan användas till att spela fler kort"
+			}
+		},
+		"prde": {
+			"name": {
+				"en": "pride",
+				"ct": "meow",
+				"ne": "trots",
+				"lt": "Vertė",
+				"hu": "Büszkeség",
+				"nb": "Stolthet",
+				"pi": "Pride",
+				"it": "Valore",
+				"fr": "Valeur",
+				"pl": "duma",
+				"sv": "pride"
+			},
+			"desc": {
+				"en": "Produce pride, which can be use to play more cards.",
+				"ne": "Produceer trots, om meer kaarten te spelen.",
+				"lt": "Vertės generavimas, kuri leidžia naudoti daugiau kortų.",
+				"hu": "Készítsd a büszkeséged, használj több kártyát.",
+				"nb": "Produserer stolthet, som kan bli brukt for å spille fler kort.",
+				"pi": "Boosts yar pirate's pride, which lets mor' pirates arrive in the battle.",
+				"it": "Produci valore, che può essere usato per giocare più carte.",
+				"fr": "Produire de la valeur pour jouer plus de cartes",
+				"pl": "Prodokuje dumę, ktora może być użyta do wezwania nowych kart.",
+				"sv": "Skapa pride, som kan användas till att spela fler kort"
+			}
+		},
+		"move": {
+			"name": {
+				"en": "move",
+				"ne": "verplaats",
+				"lt": "Judėmimas",
+				"hu": "mozgás",
+				"nb": "flytt",
+				"pi": "sail",
+				"it": "muovi",
+				"fr": "Bouger",
+				"pl": "ruch",
+				"ru": "двиги",
+				"sv": "flytta"
+			},
+			"desc": {
+				"en": "Reposition this card.",
+				"ne": "Verplaats deze kaart.",
+				"lt": "Kortos repozicionavimas.",
+				"hu": "Repozícionáld ezt a kártyát.",
+				"nb": "Flytt dette kortet",
+				"pi": "Move your ship",
+				"it": "Riposiziona questa carta.",
+				"fr": "Repositionner cette carte",
+				"pl": "Przemieść tą kartę.",
+				"ru": "Перемести эту карту.",
+				"sv": "Förflytta det här kortet"
+			}
+		},
+		"heal": {
+			"name": {
+				"en": "heal",
+				"ko": "치료",
+				"ct": "mewoowo",
+				"fr": "Guérir",
+				"pi": "Rum drinker",
+				"lt": "Gydimas",
+				"ne": "genezing",
+				"sv": "helande",
+				"es": "Curación",
+				"nb": "Helbreding",
+				"it": "cura",
+				"hu": "gyógyít",
+				"pl": "uzdrowienie",
+				"ru": "лечить"
+			},
+			"desc": {
+				"en": "Ally card gains 1 health and is cured of poison.",
+				"ko": "대상 카드는 1 건강을 얻는다.",
+				"ct": "mewoowo",
+				"fr": "La carte cible reçoit 1 point de santé et est guérie du poison",
+				"pi": "Target pirate drinks 1 bottle o' rum",
+				"lt": "Pasirinkta korta gauna  1 gyvybės tašką.",
+				"ne": "De kaart die je kiest krijgt 1 leven erbij, en wordt genezen van vergif.",
+				"sv": "Ett allierat kort får 1 liv och det är skyddat ifrån gift",
+				"es": "La carta objetivo gana 1 de vida.",
+				"nb": "Målsatt kort får ett helsepoeng.",
+				"it": "La carta bersaglio ottiene un punto salute.",
+				"hu": "Az adott kártya visszanyeri 1 életét.",
+				"pl": "Wybrana karta dostaje 1 punkt życia."
+			}
+		},
+		"tree": {
+			"name": {
+				"en": "trees!",
+				"ko": "잡초 나무",
+				"ct": "mewoowo",
+				"fr": "Arbres !",
+				"pi": "Seaweed",
+				"lt": "Žolinis medis",
+				"ne": "bomen!",
+				"sv": "ogrästräd",
+				"es": "árboles de hierbas",
+				"nb": "trær!",
+				"it": "Albero di Erba",
+				"hu": "fák!",
+				"pl": "drzewa!",
+				"ru": "деревья!"
+			},
+			"desc": {
+				"en": "A 0/1 tree is created",
+				"ko": "0/1 나무가 만들어집니다",
+				"ct": "mewoowo",
+				"fr": "Un arbre 0/1 est créé",
+				"pi": "A 0/1 seaweed drifts into the field",
+				"lt": "Sukuria 0/1 galingumo medį.",
+				"ne": "Er wordt een 0/1 boom gemaakt.",
+				"sv": "Ett 0/1 träd är skapat",
+				"es": "Un árbol 0/1 es creado",
+				"nb": "Et 0/1-tre blir lagd",
+				"it": "Viene creato un albero 0x1",
+				"hu": "Egy 0/1 fa készült",
+				"pl": "Tworzy drzewo 0/1.",
+				"ru": "0/1 Дерево создается."
+			}
+		},
+		"abom": {
+			"name": {
+				"en": "abomination",
+				"ko": "가증스러운 행위",
+				"ct": "mewoowo",
+				"fr": "Abomination",
+				"pi": "unspeakable",
+				"lt": "Sutapatinimas",
+				"ne": "verschrikking",
+				"sv": "avskyvärdighet",
+				"es": "abominación",
+				"nb": "styggedom",
+				"it": "Abominio",
+				"hu": "utálat",
+				"pl": "fuzja",
+				"ru": "мерзость"
+			},
+			"desc": {
+				"en": "Merge this unit with another.",
+				"ko": "서로 기기를 병합합니다.",
+				"ct": "mewoowo",
+				"fr": "Fusionner cette carte avec une autre",
+				"pi": "Bury two treasures together",
+				"lt": "Sujungia dviejas kortas",
+				"ne": "Versmelt deze kaart met een andere kaart.",
+				"sv": "Slå ihop den här enheten med en annan",
+				"es": "Esta unidad se combina con otra.",
+				"nb": "Slå denne enheten sammen med en annen.",
+				"it": "Fondi questa carta con un'altra.",
+				"hu": "Egyesítsd egy másikkal.",
+				"pl": "Łączy tą kartę z wybraną kartą."
+			}
+		},
+		"peap": {
+			"name": {
+				"en": "peace pipe",
+				"pl": "fajka pokoju",
+				"nb": "fredspipe",
+				"pi": "leaky pipe",
+				"ne": "vredespijp",
+				"fr": "Pacification",
+				"hu": "békepipa"
+			},
+			"desc": {
+				"en": "Target enemy can not attack next turn.",
+				"ko": "적군은 다음 턴을 공격 할 수 없다.",
+				"ct": "mewoowo",
+				"fr": "La cible ennemie ne peut pas attaquer au prochain tour.",
+				"pi": "Target boat is busy fixin' leaks until next turn",
+				"lt": "Uždraudžia priešininko kortai pulti vienam ėjimui.",
+				"ne": "De doelkaart kan de volgende beurt niet aanvallen.",
+				"sv": "Den valda enheten kan inte attackera nästa omgång",
+				"es": "El enemigo objetivo no puede atacar el próximo turno.",
+				"nb": "Målsatt fiende kan ikke angripe neste runde.",
+				"it": "L'obiettivo nemico non può attaccare il prossimo turno.",
+				"hu": "A kiszemelt ellenség nem támadhat a következő menetben.",
+				"pl": "Wybrana karta przeciwnika nie może atakować w następnej turze."
+			}
+		},
+		"bees": {
+			"name": {
+				"en": "bees!",
+				"ko": "꿀벌!",
+				"ct": "mewoowo",
+				"fr": "Abeilles !",
+				"pi": "Abeeminations",
+				"lt": "Bitės!",
+				"ne": "bijen!",
+				"sv": "Bin!",
+				"es": "¡abejas!",
+				"nb": "bier!",
+				"it": "api!",
+				"hu": "méhek!",
+				"pl": "pszczoły!"
+			},
+			"desc": {
+				"en": "A random enemy loses 1 health. This attack always hits.",
+				"pl": "Losowa karta przeciwnika traci 1 punkt życia. Zawsze trafia.",
+				"nb": "En tilfeldig fiende mister ett liv. Dette angrepet treffer alltid.",
+				"pi": "Bees swarm a random enemy and destroy 1 rum. Bees bee deadly accurate.",
+				"ne": "Een zwerm bijen valt een willekeurige vijand aan. Deze aanval mist nooit.",
+				"fr": "Une carte ennemie aléatoire perd 1 point de santé. Cette attaque fonctionne à tout coup",
+				"hu": "Egy véletlenszerű ellenfél elveszíti 1 életét. Ez halál biztos!"
+			}
+		},
+		"rbld": {
+			"name": {
+				"en": "rebuild",
+				"ko": "다시",
+				"ct": "mewoowo",
+				"fr": "Reconstruire",
+				"pi": "rebuild",
+				"lt": "Atstatymas",
+				"ne": "herbouw",
+				"sv": "omkonstruera",
+				"es": "reconstruir",
+				"nb": "gjenoppbygg",
+				"it": "ricostruisci",
+				"hu": "újraépítés",
+				"pl": "odbudowa"
+			},
+			"desc": {
+				"en": "Resurrect a dead machine.",
+				"ko": "죽은 기계를 부활.",
+				"ct": "mewoowo",
+				"fr": "Ressusciter une machine morte",
+				"pi": "Repair a sunk ship to bring it back",
+				"lt": "Prikelia mirusią Kiborgų Frakcijos kortą.",
+				"ne": "Breng een dode machine weer tot leven.",
+				"sv": "Återuppliva en död maskin.",
+				"es": "Revive una máquina muerta.",
+				"nb": "Gjenoppliv en død maskin.",
+				"it": "Fai risorgere una macchina morta.",
+				"hu": "Újraéleszt egy halott gépet.",
+				"pl": "Odbuduj zniszczoną maszynę."
+			}
+		},
+		"shld": {
+			"name": {
+				"en": "t-shield",
+				"ko": "T-쉴드",
+				"ct": "mewoowo",
+				"fr": "Bouclier-T",
+				"pi": "Fog",
+				"lt": "T-Skydas",
+				"ne": "t-schild",
+				"es": "Escudo T",
+				"nb": "t-skjold",
+				"sv": "T-sköld",
+				"it": "Scudo T",
+				"hu": "t-pajzs",
+				"pl": "tarcza T"
+			},
+			"desc": {
+				"en": "Protect this card from two points of damage.",
+				"pi": "Fog enshrouds a ship and prevents the loss of two rum.",
+				"nb": "Beskytt dette kortet fra to skadepoeng.",
+				"pl": "Uchroń tą kartę przed 2 punktami obrażeń.",
+				"ne": "Bescherm deze kaart van twee punten schade.",
+				"fr": "Protéger cette carte de 2 points d'attaque",
+				"hu": "Védd meg ezt a kártyát 2 pont sebzéstől."
+			}
+		},
+		"prci": {
+			"name": {
+				"en": "attack [flight]",
+				"ko": "정확한",
+				"ct": "mewoowo",
+				"fr": "Attaque [Aérien]",
+				"pi": "spyglass",
+				"lt": "Taiklumas",
+				"ne": "aanval [vlucht]",
+				"sv": "presis",
+				"es": "preciso",
+				"nb": "presis",
+				"it": "precisione",
+				"hu": "támadás [precíz]",
+				"pl": "atak [precyzja]"
+			},
+			"desc": {
+				"en": "Attack any enemy regardless of their defensive formations. The enemy will counter-attack.",
+				"ko": "에 관계없이 방어 형성의 선택의 적을 공격한다.",
+				"ct": "mewoowo",
+				"fr": "Attaquer la carte ennemie de votre choix, peu importe les formations défensives en place. Une contre attaque s'ensuit",
+				"pi": "Fire upon an enemy of your choice, no matter where they be.",
+				"lt": "Užpuola priešininką neatsižvelgiant į gynybos formaciją.",
+				"ne": "Val een vijand van je keuze aan, waar die zich ook bevindt.",
+				"sv": "Attackera en fiende av ditt val oavsett´av defensiva former",
+				"es": "Ataca un enemigo a tu elección sin importar las formaciones defensivas.",
+				"nb": "Angrip en fiende av ditt valg uavhengig av defensive formasjoner. Fienden vil gå til motangrep.",
+				"it": "Attacca un nemico di tua scelta senza contare delle formazioni difensive.",
+				"hu": "Támadj meg egy ellenséget függetlenül a védekező felállásától. A célpontod vissza fog támadni!",
+				"pl": "Atakuje wybraną kartę przeciwnika niezależnie od defensywnych formacji. Przeciwnik skontruje."
+			}
+		},
+		"rech": {
+			"name": {
+				"en": "recharge",
+				"ko": "전략가",
+				"ct": "mewoowo",
+				"fr": "Recharge",
+				"pi": "captain",
+				"lt": "Strategistas",
+				"ne": "opladen",
+				"sv": "strateg",
+				"es": "estratega",
+				"nb": "oppladning",
+				"it": "Stratega",
+				"hu": "újratöltés",
+				"pl": "doładowanie"
+			},
+			"desc": {
+				"en": "Ally machine can perform an extra action this turn",
+				"ko": "앨리 추가 조치에게이 턴을 수행 할 수 있습니다",
+				"ct": "mewoowo",
+				"fr": "Une machine alliée peut utiliser une action de plus pour ce tour",
+				"pi": "Unit gets more orders this turn",
+				"lt": "Papildomas veiksmas šio ėjimo metu.",
+				"ne": "Een van je machines kan een extra actie uitvoeren deze beurt.",
+				"sv": "Allierade kan utföra en extra åtgärd den här omgången",
+				"es": "Un aliado puede realizar una acción más en este turno",
+				"nb": "En alliert kan utøve en ekstra handling denne runden",
+				"it": "Un alleato può fare un'azione extra in questo turno.",
+				"hu": "A szövetséges végezhet egy extra akciót ebben a menetben.",
+				"pl": "Wybrana karta może wykonać jeszcze jeden ruch."
+			}
+		},
+		"netw": {
+			"name": {
+				"en": "network",
+				"ko": "네트워킹",
+				"ct": "mewoowo",
+				"fr": "Réseau",
+				"pi": "smuggling",
+				"lt": "Tinklas",
+				"ne": "netwerk",
+				"sv": "nätverk",
+				"es": "conexiones",
+				"nb": "nettverksbygging",
+				"it": "networking",
+				"hu": "hálózat",
+				"pl": "kooperacja"
+			},
+			"desc": {
+				"en": "Gain an ally machine's abilities.",
+				"ko": "동맹의 능력을 얻을 수 있습니다.",
+				"ct": "mewoowo",
+				"fr": "Gagner les habiletés d'une machine alliée",
+				"pi": "Gain cargo from an ally.",
+				"lt": "Savos kortos sugebėjimų įgavimas",
+				"ne": "Neem de mogelijkheden van een andere machine over.",
+				"sv": "Få en allierads förmågor",
+				"es": "Obtiene las habilidades de un aliado.",
+				"nb": "Få en allierts egenskaper.",
+				"it": "Ottieni un'abilità di un alleato.",
+				"hu": "Elnyer egy szövetséges képességet.",
+				"pl": "Sklonuj możliwości swojej innej karty."
+			}
+		},
+		"tran": {
+			"name": {
+				"en": "transform",
+				"ko": "변압기",
+				"ct": "mewoowo",
+				"fr": "Transformeur",
+				"pi": "illusionist",
+				"lt": "Apkeitimas",
+				"ne": "transformatie",
+				"sv": "transformator",
+				"es": "transformista",
+				"nb": "transformator",
+				"it": "transformer",
+				"hu": "transformer",
+				"pl": "transformer"
+			},
+			"desc": {
+				"en": "Swap health and attack.",
+				"ko": "건강과 공격을 교환합니다.",
+				"ct": "mewoowo",
+				"fr": "Interchanger les points de santé et d'attaque",
+				"pi": "Swap rum and cannons",
+				"lt": "Apkeičia puolimo ir gyvybių taškus.",
+				"ne": "Verwissel je levens en aanvalspunten.",
+				"sv": "Byt hälsa och attack",
+				"es": "Intercambia ataque y vida.",
+				"nb": "Bytt helse- og angrepspoeng.",
+				"it": "Scambia salute e attacco.",
+				"hu": "Váltás élet és támadásra.",
+				"pl": "Zamień punkty życia i ataku."
+			}
+		},
+		"sduc": {
+			"name": {
+				"en": "seduction",
+				"ko": "유혹",
+				"ct": "mewoowo",
+				"fr": "Séduction",
+				"pi": "board",
+				"lt": "Suviliojimas",
+				"ne": "verleiding",
+				"sv": "lockelse",
+				"es": "seducción",
+				"nb": "forførelse",
+				"it": "seduzione",
+				"hu": "megrontás",
+				"pl": "łapówka"
+			},
+			"desc": {
+				"en": "Sacrifice one health to convert a weak enemy to your side.",
+				"ko": "자신의 건강이 1이면 옆으로 적을 변환합니다.",
+				"ct": "mewoowo",
+				"fr": "Sacrifier 1 point de santé pour convertir un ennemi à votre côté s'il possède 1 seul point de santé",
+				"pi": "Convert an enemy crew to yer side if they have only 1 rum.",
+				"lt": "Pervilioja priešininko kortą turinčią tik 1 gyvybės tašką, į tavo pusę.",
+				"ne": "Haal een vijand naar jouw kant als ze maar 1 leven overhebben.",
+				"sv": "Konvertera en fiende till din sida om dens hälsa är ett",
+				"es": "Convierte un enemigo a tu bando si su vida es 1.",
+				"nb": "Ofre ett helsepoeng for å konvertere en svak fiende til din side.",
+				"it": "Converti un nemico dalla tua parte se la sua salute è 1.",
+				"hu": "Feláldozni egy életet, hogy az oldaladra kerüljön egy gyenge ellenség.",
+				"pl": "Poświęć 1 punkt życia żeby przejąć słabego przeciwnika na swoją stronę."
+			}
+		},
+		"assn": {
+			"name": {
+				"en": "attack [assassin]",
+				"ko": "암살자",
+				"ct": "mewoowo",
+				"fr": "Attaque [Assassin]",
+				"pi": "frigate",
+				"lt": "Žmogžudys",
+				"ne": "aanval [assassijn]",
+				"sv": "mördare",
+				"es": "asesino",
+				"nb": "angrip [snikmorder]",
+				"it": "assassino",
+				"hu": "támadás [orgyilkos]",
+				"pl": "atak [skrytobójca]"
+			},
+			"desc": {
+				"en": "Attack with no chance of a counter attack.",
+				"ko": "피해를하지 않고 공격한다.",
+				"ct": "mewoowo",
+				"fr": "Attaquer sans possibilité de contre-attaque",
+				"pi": "Attack without reciving fire.",
+				"lt": "Korta puoldama nepraranda gyvybės taškų.",
+				"ne": "Val aan zonder dat de tegenstander terug aanvalt.",
+				"sv": "Attackera utan att ta skada",
+				"es": "Ataca sin recibir daño.",
+				"nb": "Angrip uten noen sjanse for motangrep.",
+				"it": "Attacca senza prendere danno.",
+				"hu": "Támadás sérülés nélkül.",
+				"pl": "Atakuj bez wyrządzenia sobie szkód."
+			}
+		},
+		"delg": {
+			"name": {
+				"en": "delegate",
+				"ko": "대리자",
+				"ct": "mewoowo",
+				"fr": "Délégué",
+				"pi": "port",
+				"lt": "Įgaliojimas",
+				"ne": "afgevaardige",
+				"sv": "sända",
+				"es": "delegar",
+				"nb": "delegat",
+				"it": "delega",
+				"hu": "képviselő",
+				"pl": "delegacja"
+			},
+			"desc": {
+				"en": "Return this card to your hand, giving an extra action point to your commander card.",
+				"pl": "Zwróc tą kartę do ręki, refundując jej orginalny koszt.",
+				"nb": "Returner dette kortet til hånden din, og få tilbake dets opprinnelige stolthetskostnad.",
+				"pi": "Send this ship back to port, gaining back its pride cost.",
+				"ne": "Breng deze kaart terug naar je hand, zodat je aanvoerder een extra actie uit kan voeren.",
+				"fr": "Retourner cette carte dans votre main pour donner une action supplémentaire à votre carte maître",
+				"hu": "Visszaszerzed eme kártyát a kezedbe, az eredeti büszkeség költségeivel."
+			}
+		},
+		"posn": {
+			"name": {
+				"en": "poison",
+				"ko": "독",
+				"ct": "mewoowo",
+				"fr": "Poison",
+				"pi": "scurvy",
+				"lt": "Nuodai",
+				"ne": "vergif",
+				"sv": "gift",
+				"es": "veneno",
+				"nb": "gift",
+				"it": "veleno",
+				"hu": "méreg",
+				"pl": "zatruty miecz"
+			},
+			"desc": {
+				"en": "Target enemy loses 1 health per turn. 50% chance to fail.",
+				"ko": "대상 적 턴에 1 건강을 푼다.",
+				"ct": "mewoowo",
+				"fr": "La cible ennemie perd 1 point de santé par tour. 50% de chances d'échouer",
+				"pi": "Target ship loses 1 rum per turn.",
+				"lt": "Kiekvieną ėjimą, priešininko korta praranda 1 gyvybės tašką..",
+				"ne": "Het doel wordt vergiftigd voor 1 leven per beurt. 50% kans om te missen.",
+				"sv": "Den valda fienden förlorar ett hälsopoäng per omgång",
+				"es": "El enemigo objetivo pierde 1 de vida por turno.",
+				"nb": "Målsatt fiende mister ett helsepoeng per runde. 50% sjanse for å mislykkes.",
+				"it": "Il nemico bersaglio perde 1 punto vita a turno.",
+				"hu": "A kiválasztott ellenség elveszíti 1 életét menetenként. (50% eséllyel)",
+				"pl": "Wybrany przeciwnik traci 1 punkt życia co ture. 50% szans na niepowodzenie."
+			}
+		},
+		"tlpt": {
+			"name": {
+				"en": "teleporter",
+				"pl": "teleportacja",
+				"nb": "teleportør",
+				"fr": "Téléportation",
+				"pi": "take up anchor",
+				"ne": "teleportatie",
+				"hu": "teleportáló"
+			},
+			"desc": {
+				"en": "Move an ally card, curing poison in the process.",
+				"pi": "Sail a ship, and give it some oranges to cure scurvy.",
+				"ne": "Verplaats een kaart van jezelf, en genees tegelijk vergif.",
+				"fr": "Déplacer une carte alliée, la guérissant du poison",
+				"hu": "Az összes kártyáid elnyerik a mozgás képességet."
+			}
+		},
+		"bagm": {
+			"name": {
+				"en": "bag 'em",
+				"ko": "잡기",
+				"ct": "mewoowo",
+				"fr": "Empaqueter",
+				"pi": "prevailing wind",
+				"lt": "Sugražinimas",
+				"ne": "wegstoppen",
+				"sv": "Säcka dem",
+				"es": "embolsar",
+				"nb": "fang dem",
+				"it": "impacchettare",
+				"hu": "bag 'em",
+				"pl": "zawrócenie"
+			},
+			"desc": {
+				"en": "Return this card to your hand, and return an enemy card to its owner's hand.",
+				"ko": "대상 카드는 그것의 소유자의 손에 반환됩니다.",
+				"ct": "mewoowo",
+				"fr": "Cette carte et la carte cible ennemie retournent dans le paquet de leur propriétaire",
+				"pi": "Target ship is blown back to port.",
+				"lt": "Sugražina priešininko kortą į savininko rankas.",
+				"ne": "Breng deze kaart terug naar je hand, en de doelkaart van de tegenstander.",
+				"sv": "Kortet du valde är tillbakadraget till ägarens hand",
+				"es": "La carta objetivo retorna a la mano de su dueño.",
+				"nb": "Målsatt kort blir retunert til eierens hånd.",
+				"it": "La carta bersaglio ritorna alla mano del suo proprietario.",
+				"hu": "A kijelölt kártya visszakerül az eredeti tulajdonosa kezébe.",
+				"pl": "Zwróć wybraną kartę przeciwnika do ręki jej właściciela."
+			}
+		},
+		"siph": {
+			"name": {
+				"en": "attack [siphon]",
+				"ko": "사이펀",
+				"ct": "mewoowo",
+				"fr": "Attaque [Siphon]",
+				"pi": "siphon",
+				"lt": "Vampyrizmas",
+				"ne": "aanval [aftappen]",
+				"sv": "sifon",
+				"es": "sifón",
+				"nb": "sifon",
+				"it": "sifone",
+				"hu": "támadás [szifon]",
+				"pl": "atak [leczniczy]"
+			},
+			"desc": {
+				"en": "Attack an enemy, converting some of the damage into health. The enemy will counter-attack.",
+				"pl": "Zaatakuj przeciwnika, konwertując niektóre obrażenia w punkty życia. Przeciwnik skontruje.",
+				"nb": "Angriper en fiende, og konverterer noe av skaden til helsepoeng. Fienden vil gå til motangrep.",
+				"pi": "Shoot an enemy ship. Some of their rum will be stolen, but they'll counter over their lost rum!",
+				"ne": "Val een tegenstander aan, en zet wat van hun schade om in levens. De tegenstander valt terug aan.",
+				"fr": "Attaquer une carte ennemie, certains dommages vous redonnant des points de santé. Une contre-attaque s'ensuit.",
+				"hu": "Támadj meg egy ellenséget, átkonvertálódik pár sebzés életté. A célpontod vissza fog támadni!"
+			}
+		},
+		"male": {
+			"name": {
+				"en": "male",
+				"ko": "남성",
+				"ct": "mewoowo",
+				"fr": "Mâle",
+				"pi": "Man",
+				"lt": "Vyras",
+				"ne": "mannelijk",
+				"sv": "man",
+				"es": "macho",
+				"nb": "hannkjønn",
+				"it": "maschio",
+				"hu": "férfi",
+				"pl": "mężczyzna"
+			},
+			"desc": {
+				"en": "Can reproduce with females.",
+				"ko": "여성으로 재현 할 수 있습니다.",
+				"ct": "mewoowo",
+				"fr": "Peut se reproduire avec les cartes femelles",
+				"pi": "Can make wee ones with women.",
+				"lt": "Gali daugintis su moterimis.",
+				"ne": "Kan voortplanten met een vrouwelijke kaard.",
+				"sv": "Kan ompruduceras med kvinnor",
+				"es": "Puede reproducirse con hembras.",
+				"nb": "Kan reprodusere med hunkjønn.",
+				"it": "Si può riprodurre con le femmine.",
+				"hu": "Képes reprodukálni a nőkkel.",
+				"pl": "Może reprodukować sie z kobietami."
+			}
+		},
+		"feml": {
+			"name": {
+				"en": "female",
+				"ko": "여성",
+				"ct": "mewoowo",
+				"fr": "Femelle",
+				"pi": "woman",
+				"lt": "Moteris",
+				"ne": "vrouwelijk",
+				"sv": "kvinna",
+				"es": "hembra",
+				"nb": "hunkjønn",
+				"it": "femmina",
+				"hu": "nő",
+				"pl": "kobieta"
+			},
+			"desc": {
+				"en": "Can reproduce with males.",
+				"ko": "남성으로 재현 할 수 있습니다.",
+				"ct": "mewoowo",
+				"fr": "Peut se reproduire avec les cartes mâles",
+				"pi": "Can make wee ones with men.",
+				"lt": "Gali daugintis su vyrais.",
+				"ne": "Kan voortplanten met een mannelijke kaard.",
+				"sv": "Kan omproduceras med män",
+				"es": "Puede reproducirse con machos.",
+				"nb": "Kan reprodusere med hankjønn.",
+				"it": "Si può riprodurre con i maschi.",
+				"hu": "Képes reprodukálni a férfiakkal.",
+				"pl": "Może reprodukować sie z mężczyznami."
+			}
+		},
+		"btle": {
+			"name": {
+				"en": "battle cry",
+				"ko": "함성",
+				"ct": "mewoowo",
+				"fr": "Cri de guerre",
+				"pi": "Yarr!",
+				"lt": "Mūšio giesmė",
+				"ne": "strijdkreet",
+				"sv": "krigs gråt",
+				"es": "Grito de batalla",
+				"nb": "krigsrop",
+				"it": "Pianto di battaglia",
+				"hu": "harci kiáltás",
+				"pl": "okrzyk wojenny"
+			},
+			"desc": {
+				"en": "All ally zealots gain 1 attack for 1 turn.",
+				"pl": "Wszyscy twoi zeloci dostają 1 punkt ataku na jedną turę.",
+				"pi": "All allied priest gain one attack for 1 turn.",
+				"ne": "Al je zeloten krijgen 1 aanvalspunt erbij voor 1 beurt.",
+				"fr": "Les fanatiques alliés gagnent 1 point d'attaque pour 1 tour",
+				"hu": "Az összes szövetséges zelóta képes lesz 1 támadásra egy menetben."
+			}
+		},
+		"hero": {
+			"name": {
+				"en": "heroic sacrifice",
+				"ko": "영웅적인 희생",
+				"ct": "mewoowo",
+				"fr": "Sacrifice héroïque",
+				"pi": "raise flags",
+				"lt": "Didviriškas pasiaukojimas",
+				"ne": "heldhaftig offer",
+				"sv": "hjältligt offer",
+				"es": "sacrificio heroico",
+				"nb": "heroisk ofring",
+				"it": "sacrificio eroico",
+				"hu": "hősies áldozat",
+				"pl": "heroiczne poświęcenie"
+			},
+			"desc": {
+				"en": "All enemy attacks must target this card for one turn.",
+				"ko": "모든 적의 공격 한 턴에이 카드를 대상으로해야합니다.",
+				"ct": "mewoowo",
+				"fr": "Tous les ennemis doivent cibler cette carte pour 1 tour",
+				"pi": "All enemies that fire must attack this ship for one turn.",
+				"lt": "Kito ėjimo metu, visi priešininkų padarai galės pulti tik šią kortą.",
+				"ne": "Alle vijanden moeten de volgende beurt deze kaart aanvallen.",
+				"sv": "Alla fienders attacker måste sikta på det här kortet för en omgång",
+				"es": "Todos los ataques enemigos deben tener a esta carta como objetivo por un turno.",
+				"nb": "Alle fiendtlige angrep må målsette dette kortet én runde.",
+				"it": "Tutti gli attacchi del nemico devono essere indirizzati a questa carta per un turno.",
+				"hu": "Az összes ellenséges támadás erre a kártyára összpontosul egy menet idejéig.",
+				"pl": "Wszystkie karty przeciwnika muszą atakować tą kartę w nastepnej turze."
+			}
+		},
+		"serm": {
+			"name": {
+				"en": "super serum",
+				"ko": "슈퍼 혈청",
+				"ct": "mewoowo",
+				"fr": "Super-sérum",
+				"pi": "super rum",
+				"lt": "Stiprybės serumas",
+				"ne": "super serum",
+				"sv": "superserum",
+				"es": "súper suero",
+				"nb": "super-serum",
+				"it": "super siero",
+				"hu": "szuper szérum",
+				"pl": "super serum"
+			},
+			"desc": {
+				"en": "Attack is increased by 3, and this card becomes poisoned.",
+				"pl": "Atak powieksza sie o 3 kosztem zatrucia tej karty.",
+				"nb": "Kortet får tre angrepspoeng, og blir forgiftet.",
+				"pi": "Ship has 3 more cannons, but its rum supply is poisoned.",
+				"ne": "Deze kaart krijgt er 3 aanvalspunten bij, en wordt vergiftigd.",
+				"fr": "Gagner 3 points d'attaque tout en s'empoisonnant",
+				"hu": "A támadás meg háromszorozódik és ez a kártya mérgezett lesz."
+			}
+		},
+		"frvt": {
+			"name": {
+				"en": "attack [fervent]",
+				"pl": "atak [żarliwy]",
+				"nb": "angrip [rettferdig]",
+				"pi": "righteous",
+				"ne": "aanval [vastberaden]",
+				"fr": "Attaque [Fervent]",
+				"hu": "támadás [heves]"
+			},
+			"desc": {
+				"en": "Attack an enemy without ever missing. The enemy will counter-attack.",
+				"nb": "Angrip en fiende, og konverter skaden til stolthet. Fienden vil gå til motangrep.",
+				"pi": "Shoot an enemy ship; rum will turn into pride. Enemey will counter over the loss of their rum!",
+				"fr": "Attaquer une carte ennemie sans risque d'échec. Une contre-attaque s'ensuit",
+				"pl": "Zaatakuj przeciwnika bez pudłowania. Przeciwnik skontruje.",
+				"ne": "Val een tegenstander aan zonder te missen. De tegenstander valt terug aan.",
+				"hu": "Támadj meg egy ellenséget tévesztés nélkül. A célpontod vissza fog támadni."
+			}
+		}
+	},
+	"analyzer": {
+		"pride": {
+			"en": "pride",
+			"ne": "trots",
+			"lt": "Vertė",
+			"pi": "pride",
+			"it": "valore",
+			"nb": "stolthet",
+			"fr": "Valeur",
+			"pl": "duma",
+			"hu": "büszkeség",
+			"ru": "гордость",
+			"sv": "pride"
+		},
+		"cardCount": {
+			"en": "cards",
+			"ne": "kaarten",
+			"lt": "Kortų kiekis",
+			"pi": "ships",
+			"it": "carte",
+			"nb": "kort",
+			"fr": "Cartes",
+			"pl": "ilość kart",
+			"hu": "kártyák",
+			"ru": "карты",
+			"sv": "kort"
+		},
+		"attack": {
+			"en": "attack",
+			"ne": "aanval",
+			"lt": "Puolimo taškai",
+			"pi": "cannons",
+			"it": "attacco",
+			"nb": "angrip",
+			"fr": "Attaque",
+			"pl": "atak",
+			"hu": "támadás",
+			"ru": "атак",
+			"sv": "attackera"
+		},
+		"health": {
+			"en": "health",
+			"ne": "levens",
+			"lt": "Gyvybių taškai",
+			"pi": "rum",
+			"it": "salute",
+			"nb": "helse",
+			"fr": "Santé",
+			"pl": "życie",
+			"hu": "élet",
+			"ru": "здоровье",
+			"sv": "hälsa"
+		}
+	},
+	"applicantModal": {
+		"title": {
+			"en": "Applications",
+			"ne": "Toepassingen",
+			"fr": "Applications",
+			"pi": "Potentials",
+			"ru": "Заявки"
+		},
+		"close": {
+			"en": "Close",
+			"ne": "Sluiten",
+			"fr": "Fermer",
+			"pi": "Seal",
+			"ru": "Закрой"
+		},
+		"accept": {
+			"en": "Accept",
+			"ne": "Accepteren",
+			"fr": "Accepter",
+			"pi": "Accept",
+			"ru": "Принимай"
+		},
+		"delete": {
+			"en": "Delete",
+			"ne": "Verwijderen",
+			"fr": "Supprimer",
+			"pi": "Burn",
+			"ru": "Стирай"
+		}
+	},
+	"cardBuilder": {
+		"title": {
+			"en": "Card Builder",
+			"ne": "Kaartenbouwer",
+			"hu": "Kártya Készítő",
+			"fr": "Créatuer de carte",
+			"pi": "Ship builder",
+			"ru": "Карточка Производителя"
+		},
+		"share": {
+			"en": "Share",
+			"fr": "Partager",
+			"ru": "Дели"
+		},
+		"shareDesc": {
+			"en": "Let other players use this card in their decks",
+			"fr": "Laisser les autres joueurs utiliser cette carte dans leurs paquets",
+			"ru": "Дай другие люди использовать эта карта в их колоды"
+		},
+		"name": {
+			"en": "Name",
+			"ko": "이름",
+			"ct": "meow",
+			"fr": "Nom",
+			"pi": "Name yar booty",
+			"lt": "Pavadinimas",
+			"ne": "Naam",
+			"sv": "Namnge",
+			"es": "Nombrar",
+			"nb": "Navngi",
+			"it": "Nominala",
+			"hu": "Név",
+			"pl": "Nazwij",
+			"ru": "Имя"
+		},
+		"story": {
+			"en": "Story",
+			"hu": "Sztori",
+			"ne": "Verhaal",
+			"fr": "Description",
+			"pi": "Warrent",
+			"ru": "Описание"
+		},
+		"imageUpload": {
+			"en": "Image Upload",
+			"ko": "영상",
+			"ct": "meow",
+			"fr": "Charger une image",
+			"pi": "Change yer flag",
+			"lt": "Paveikslėlio įkelimas",
+			"ne": "Kies een afbeelding",
+			"sv": "bilduppladdning",
+			"es": "Cargar imagen",
+			"nb": "Bildeopplasting",
+			"it": "Carica un'immagine",
+			"hu": "Képfeltöltés",
+			"pl": "Obrazek",
+			"ru": "Загрузите изображение"
+		},
+		"faction": {
+			"en": "Faction",
+			"hu": "Faction",
+			"ne": "Factie",
+			"fr": "Classe",
+			"pi": "Alignment",
+			"ru": "Фракция"
+		},
+		"factionAbilities": {
+			"en": "Faction Abilities",
+			"ko": "능력",
+			"ct": "meow",
+			"fr": "Habiletés de la classe",
+			"pi": "Munitions",
+			"lt": "Frakcijų sugebėjimai",
+			"ne": "Factie Vaardigheden",
+			"sv": "Fraktionsförmågor",
+			"es": "Habilidades de la facción",
+			"nb": "Klanegenskaper",
+			"it": "Abilità della fazione",
+			"hu": "Képességek",
+			"pl": "Zdolnosci",
+			"ru": "Фракция Умения"
+		},
+		"save": {
+			"en": "Save",
+			"ko": "저장",
+			"ct": "meow",
+			"fr": "Sauvegarder",
+			"pi": "Bury",
+			"lt": "Išsaugoti",
+			"ne": "Opslaan",
+			"sv": "Spara",
+			"es": "Guardar",
+			"nb": "Lagre",
+			"it": "Salva",
+			"hu": "Mentés",
+			"pl": "Zapisz",
+			"ru": "Записай"
+		},
+		"load": {
+			"en": "Load",
+			"ko": "하중",
+			"ct": "meow",
+			"fr": "Charger",
+			"pi": "Dig up booty",
+			"lt": "Užkrauti",
+			"ne": "Laden",
+			"sv": "Ladda",
+			"es": "Cargar",
+			"nb": "Åpne",
+			"it": "Carica",
+			"hu": "Betöltés",
+			"pl": "Załaduj",
+			"ru": "Открывай"
+		},
+		"new": {
+			"en": "New",
+			"ko": "새로운",
+			"ct": "meow",
+			"fr": "Nouvelle",
+			"pi": "Plunder new booty",
+			"lt": "Nauja korta",
+			"ne": "Nieuw",
+			"sv": "Nytt",
+			"es": "Nueva",
+			"nb": "Nytt",
+			"it": "Nuova",
+			"hu": "Új",
+			"pl": "Utwórz",
+			"ru": "Новый"
+		},
+		"delete": {
+			"en": "Delete",
+			"ko": "삭제",
+			"ct": "meow",
+			"fr": "Supprimer",
+			"pi": "Toss overboard",
+			"lt": "Ištrinti",
+			"ne": "Verwijderen",
+			"sv": "Ta bort",
+			"es": "Eliminar",
+			"nb": "Slett",
+			"it": "Elimina",
+			"hu": "Törlés",
+			"pl": "usuń",
+			"ru": "Стирай"
+		},
+		"attack": {
+			"en": "Attack",
+			"ko": "공격",
+			"ct": "meow",
+			"fr": "Attaque",
+			"pi": "Number o' Cannons",
+			"lt": "Puolimo taškai",
+			"ne": "Kracht",
+			"sv": "Attackera",
+			"es": "Ataque",
+			"nb": "Angrip",
+			"it": "Attacca",
+			"hu": "Támadás",
+			"pl": "Atak",
+			"ru": "Атак"
+		},
+		"health": {
+			"en": "Health",
+			"ko": "건강",
+			"ct": "meow",
+			"fr": "Santé",
+			"pi": "Rum",
+			"lt": "Gyvybės taškai",
+			"ne": "Levens",
+			"sv": "Hälsa",
+			"es": "Vida",
+			"nb": "Helse",
+			"it": "Salute",
+			"hu": "Élet",
+			"pl": "Zdrowie",
+			"ru": "Здоровье"
+		}
+	},
+	"cardSelector": {
+		"edit": {
+			"en": "Edit",
+			"pi": "Change Crew",
+			"ne": "Bewerken",
+			"fr": "Modifier",
+			"hu": "Módosít",
+			"ru": "Редактировай"
+		},
+		"newCard": {
+			"en": "New Card",
+			"pi": "New Ship",
+			"ne": "Nieuwe kaart",
+			"fr": "Nouvelle Carte",
+			"hu": "Új Kártya",
+			"ru": "Новый Карта"
+		},
+		"delete": {
+			"en": "Delete",
+			"ne": "verwijder",
+			"pl": "usun",
+			"nb": "slett",
+			"fr": "Supprimer",
+			"pi": "burn message",
+			"hu": "törlés",
+			"ru": "Стирай"
+		},
+		"report": {
+			"en": "Report",
+			"ne": "overtreding melden",
+			"pl": "zreportuj",
+			"nb": "rapporter",
+			"fr": "Signaler",
+			"pi": "tip off police",
+			"hu": "jelentés",
+			"ru": "Сообщи"
+		}
+	},
+	"chat": {
+		"say": {
+			"en": "say",
+			"ko": "말하다",
+			"ct": "meow",
+			"fr": "Envoyer",
+			"pi": "Belch",
+			"lt": "Kalbėk",
+			"ne": "Zeggen",
+			"sv": "säg",
+			"es": "Enviar",
+			"nb": "si",
+			"it": "Invia",
+			"hu": "küld",
+			"pl": "wyślij",
+			"ru": "скажи"
+		},
+		"placeholder": {
+			"en": "type to chat",
+			"ko": "말을 입력",
+			"ct": "meow",
+			"fr": "Taper pour bavarder",
+			"pi": "Open ye mouth",
+			"lt": "Įveskite norimą tekstą",
+			"ne": "Typ iets in de chat",
+			"sv": "skriv för att chatta",
+			"es": "Escribe para conversar",
+			"nb": "skriv for å chatte",
+			"it": "Scrivi per mandare messaggi",
+			"hu": "ide írj!",
+			"pl": "Zapisz/Załaduj",
+			"ru": "печатай для чат"
+		}
+	},
+	"customGameModal": {
+		"title": {
+			"en": "Game Builder",
+			"fr": "Éditeur de partie",
+			"ru": "Матч Производителя",
+			"sv": "Spel Skapare"
+		},
+		"rows": {
+			"en": "Rows",
+			"fr": "Rangées",
+			"ru": "Строки",
+			"sv": "Rader"
+		},
+		"columns": {
+			"en": "Columns",
+			"fr": "Colonnes",
+			"ru": "Колонны",
+			"sv": "Kolummer"
+		},
+		"deckSize": {
+			"en": "Deck Size",
+			"fr": "Taille du paquet",
+			"ru": "Размер Колоды",
+			"sv": "Deckstorlek"
+		},
+		"futures": {
+			"en": "Futures",
+			"fr": "Futurs",
+			"ru": "Фьючерсы",
+			"sv": "Framtid"
+		},
+		"players": {
+			"en": "Players",
+			"fr": "Joueurs",
+			"ru": "Игроки",
+			"sv": "Spelare"
+		},
+		"startPride": {
+			"en": "Start Pride",
+			"fr": "Valeur de départ",
+			"ru": "Начиная Гордость",
+			"sv": "Startpride"
+		},
+		"start": {
+			"en": "Start Game",
+			"fr": "Commencer la partie",
+			"ru": "Начинай",
+			"sv": "Starta Spel"
+		},
+		"close": {
+			"en": "Close",
+			"fr": "Fermer",
+			"ru": "Закрой",
+			"sv": "Stäng"
+		}
+	},
+	"deckBuilder": {
+		"title": {
+			"en": "Deck Builder",
+			"ne": "Deckbouwer",
+			"fr": "Créateur de paquet",
+			"pi": "Fleet assembler"
+		},
+		"none": {
+			"en": "None",
+			"fr": "Aucun",
+			"ne": "Geen"
+		},
+		"share": {
+			"en": "Share",
+			"fr": "Partager",
+			"ne": "Delen"
+		},
+		"shareDesc": {
+			"en": "Let other players use this deck",
+			"fr": "Laisser les autres joueurs utiliser ce paquet",
+			"ne": "Laat andere spelers deze deck gebruiken"
+		},
+		"myCards": {
+			"en": "My Cards",
+			"fr": "Mes cartes",
+			"ne": "Mijn kaarten"
+		},
+		"favoriteCards": {
+			"en": "Favorites",
+			"fr": "Favorites",
+			"ne": "Favorieten"
+		},
+		"popularCards": {
+			"en": "Popular",
+			"fr": "Populaires",
+			"ne": "Populair"
+		},
+		"add": {
+			"en": "Add",
+			"fr": "Ajouter"
+		},
+		"remove": {
+			"en": "X",
+			"fr": "X"
+		},
+		"save": {
+			"en": "Save",
+			"ko": "저장",
+			"ct": "meow",
+			"fr": "Sauvegarder",
+			"pi": "Bury",
+			"lt": "Išsaugoti",
+			"ne": "Opslaan",
+			"sv": "Spara",
+			"es": "Guardar",
+			"nb": "Lagre",
+			"it": "Salva",
+			"hu": "Mentés",
+			"pl": "Zapisz"
+		},
+		"load": {
+			"en": "Load",
+			"ko": "하중",
+			"ct": "meow",
+			"fr": "Charger",
+			"pi": "Dig up booty",
+			"lt": "Užkrauti",
+			"ne": "Laden",
+			"sv": "Ladda",
+			"es": "Cargar",
+			"nb": "Åpne",
+			"it": "Carica",
+			"hu": "Betöltés",
+			"pl": "Załaduj"
+		},
+		"new": {
+			"en": "New",
+			"ko": "새로운",
+			"ct": "meow",
+			"fr": "Nouveau",
+			"pi": "Plunder new booty",
+			"lt": "Naujas",
+			"ne": "Nieuw",
+			"sv": "Nytt",
+			"es": "Nuevo",
+			"nb": "Nytt",
+			"it": "Nuova",
+			"hu": "Új",
+			"pl": "Utwórz"
+		},
+		"name": {
+			"en": "Name",
+			"ko": "이름",
+			"ct": "meow",
+			"fr": "Nom",
+			"pi": "Name yar booty",
+			"lt": "Pavadinimas",
+			"ne": "Naam",
+			"sv": "Namnge det",
+			"es": "Nombrar",
+			"nb": "Navngi det",
+			"it": "Nominalo",
+			"hu": "Nevezd el",
+			"pl": "Nazwij"
+		},
+		"cards": {
+			"en": "Cards",
+			"ko": "카드",
+			"ct": "meow",
+			"fr": "Cartes",
+			"pi": "Ships",
+			"lt": "Kortos",
+			"ne": "Kaarten",
+			"sv": "Kort",
+			"es": "Cartas",
+			"nb": "Kort",
+			"it": "Carte",
+			"hu": "Kártyák",
+			"pl": "Karty"
+		},
+		"stats": {
+			"en": "Stats",
+			"ne": "Statistieken",
+			"fr": "Statistiques",
+			"pi": "Bounty"
+		}
+	},
+	"deckSelector": {
+		"edit": {
+			"en": "Edit",
+			"pi": "Change fleet",
+			"ne": "Bewerken",
+			"fr": "Modifier",
+			"hu": "Módosít"
+		},
+		"addFavorite": {
+			"en": "+ Favorite",
+			"fr": "+ Favoris"
+		},
+		"removeFavorite": {
+			"en": "- Favorite",
+			"fr": "- Favoris"
+		},
+		"delete": {
+			"en": "Delete",
+			"ne": "Verwijder",
+			"pl": "Usun",
+			"nb": "Slett",
+			"fr": "Supprimer",
+			"pi": "Burn message",
+			"hu": "Törlés"
+		},
+		"newDeck": {
+			"en": "New Deck",
+			"pi": "New fleet",
+			"ne": "Nieuwe Deck",
+			"fr": "Nouveau paquet",
+			"hu": "Új Kártyacsomag"
+		}
+	},
+	"deck": {
+		"cards": {
+			"en": "cards",
+			"pl": "karty",
+			"pi": "ships",
+			"ne": "kaarten",
+			"fr": "Cartes",
+			"hu": "kártyák"
+		}
+	},
+	"errorPage": {
+		"error": {
+			"en": "Error",
+			"ko": "오류",
+			"ct": "meow",
+			"fr": "Erreur",
+			"pi": "Y'arr!",
+			"lt": "Klaida!",
+			"ne": "Error",
+			"sv": "Error",
+			"es": "Error",
+			"nb": "Error",
+			"it": "Errore!",
+			"hu": "Hiba",
+			"pl": "Błąd"
+		}
+	},
+	"factions": {
+		"en": {
+			"name": {
+				"en": "Ent",
+				"ko": "엔트",
+				"ct": "mewoowo",
+				"fr": "Ent",
+				"pi": "Krakens",
+				"lt": "Entai",
+				"ne": "Ent",
+				"sv": "Ent",
+				"es": "Ent",
+				"nb": "Ent",
+				"it": "Enti",
+				"hu": "Ent",
+				"pl": "Ent"
+			},
+			"desc": {
+				"en": "Seeking a bond with nature, the Ents tinkered with their own dna. A wild group of nomads, they say you'll never meet the same Ent twice.",
+				"ko": "자연과의 결합을 추구, 엔트는 자신의 DNA를 만지작 거렸다. 유목민의 야생 그룹, 그들은 당신이 두 번 같은 엔트을 충족하지 못할거야 말한다.",
+				"ct": "mewoowo",
+				"fr": "Cherchant un lien avec la nature, les Ents ont fabriqué leur propre ADN. Sauvage groupe de nomades, on dit que vous ne rencontrerez jamais deux fois le même Ent",
+				"pi": "Yarr, the race o' the krakens are a strange one. They were once but a cult, until Davy Jones cursed them to dwell in the sea.",
+				"lt": "Pasak legendų, niekados nesutiksi dviejų visiškai vienodų Entų - nes pastarieji, siekdami maksimalaus ryšio su gamta modifikavo savo DNR.",
+				"ne": "In hun zoektocht naar een band met de natuur hebben de Enten aan hun eigen DNA gesleuteld. Ze zijn een wilde groep nomaden, en ze zeggen dat je dezelfde Ent nooit tweemaal zult tegenkomen.",
+				"sv": "Sökande efter en obligation med naturen,och enterna mixtrar med sin egen dna. En vild grupp av nomader, de säger att du aldrig kommer att möta samma Ent två gånger.",
+				"es": "En la búsqueda de un lazo con la naturaleza, los Ents alteraron su propio ADN. Son un grupo salvaje de nómades, y dicen que nunca verás al mismo Ent dos veces.",
+				"nb": "I sin søknad etter et bånd med naturen tuklet entene med sitt eget DNA. De er en vill gruppe nomader, og det sies at du aldri møter den samme enten to ganger.",
+				"it": "Cercando un legame con la natura, gli Enti hanno modificato il loro DNA. Sono un gruppo di nomadi, e si dice che non si può vedere un Ente più di due volte.",
+				"hu": "A természet lágy ölén találkozol az Ent-ekkel, kik foltozzák a saját DNS-üket. Egy vad nomád csoport. Azt mondják sosem fogod látni közülük kétszer ugyan azt az Ent-et.",
+				"pl": "Szukając połączenia z naturą, Enty pomajstrowały przy swoim kodzie genetycznym. Dzika grupa nomadów powiada, że nie spotkasz tego samego Enta dwa razy."
+			}
+		},
+		"mc": {
+			"name": {
+				"en": "Machine",
+				"ko": "기계",
+				"ct": "mewoowo",
+				"fr": "Machine",
+				"pi": "Inventors",
+				"lt": "Kiborgai",
+				"ne": "Machine",
+				"sv": "Maskin",
+				"es": "Máquina",
+				"nb": "Maskin",
+				"it": "Macchina",
+				"hu": "Gép",
+				"pl": "Robot"
+			},
+			"desc": {
+				"en": "The relentless pursuit of knowledge lead some to improve their minds with metal. They have become far more than humans ever were, and far less.",
+				"ko": "지식의 끊임없는 추구는 금속으로 그들의 마음을 개선하는 데 도움이되는 몇 가지를했다. 그들은 인간이 이제까지했던 것보다 훨씬 더, 훨씬 덜되고있다.",
+				"ct": "mewoowo",
+				"fr": "L'incessante poursuite de la connaissance en a mené certains à améliorer leurs esprits grâce au métal. Ils sont devenus bien plus que ce que les humains ont jamais été, et bien moins",
+				"pi": "Tha inventors are a lively bunch, ever in the pursuit of rum and knowledge. They know how to make good cannons",
+				"lt": "Siekdami išminties, savo smegenyse įtaisė implantus, taip tapdami žymiai galingesni nei žmonės, bet prarasdami žmogiškumą.",
+				"ne": "De onophoudelijke speurtocht naar kennis leidde ertoe dat sommigen hun geest hebben verbeterd met metaal. Ze zijn veel meer dan mensen ooit waren, maar ook veel minder.",
+				"sv": "Den obevekliga strävan efter kunskap leder några att förbättra sina sinnen med metall. De har blivit mycket mer än människan någonsin var, och långt mindre.",
+				"es": "La búsqueda incansable del conocimiento llevó a algunos a mejorar sus mentes con metal. Se han convertido en mucho más que lo que los humanos nunca llegaron a ser, y en mucho menos.",
+				"nb": "Den nådeløse jakten på kunnskap fører noen til å bedre sin mentale tankegang med metall. De har blitt langt mer enn mennesker noen sinne var, men også langt mindre.",
+				"it": "L'incessabile ricerca di conoscenza ha portato alcuni a migliorare i loro cervelli con il metallo. Ora sono diventati molto più di come siano sempre stati gli umani, e molto di meno.",
+				"hu": "A könyörtelen törekvés az emberi tudás felé néha ahhoz vezet, hogy javítaniuk kell a színesfémet a fejükben. Ők többet alkotnak mint az ember valaha is.",
+				"pl": "Nieustępliwy pościg za wiedzą poprowadził do polepszenia wiedzy o metalach. Stały się znacznie potężniejsze niż ludzie kiedykolwiek byli."
+			}
+		},
+		"el": {
+			"name": {
+				"en": "Elite",
+				"ko": "엘리트",
+				"ct": "mewoowo",
+				"fr": "Élite",
+				"pi": "Swashbucklers",
+				"lt": "Elitas",
+				"ne": "Elite",
+				"sv": "Elit",
+				"es": "Élite",
+				"nb": "Elite",
+				"it": "Elite",
+				"hu": "Elit",
+				"pl": "Elita"
+			},
+			"desc": {
+				"en": "Taking delight in the pleasures of this world, Elites have dominated the wealthy ruling class. A beautiful people, as long as you don't dig too deep.",
+				"ko": "이 세상의 쾌락의 기쁨을 촬영, 엘리트는 부유 한 지배 계급을 지배했다. 만큼 당신이 너무 깊이 파고하지 않는 아름다운 사람들.",
+				"ct": "mewoowo",
+				"fr": "Trouvant leur bonheur dans les petits plaisirs de ce monde, les Élites ont dominé la classe riche dominante. Un beau peuple, tant que vous n'allez pas trop loin",
+				"pi": "The swashbucklers are the men o' the sea, always about on a ship. They are superb at boardin' other ships. ",
+				"lt": "Besimėgaudami pagundų teikiamu malonumu, Elitai dominavo turtingujų klasę.",
+				"ne": "De Elite zoekt haar genoegdoening in het genot van de wereld. Ze domineren de rijke aristocratie. Een mooi volk, zolang je niet te diep kijkt.",
+				"sv": "Med glädje i njutning av denna värld, har eliter dominerat den förmögna härskande klassen.Vackra människor, så länge du inte gräver för djupt.",
+				"es": "Disfrutando de los placeres de este mundo, los Élites han dominado la clase rica y dominante. Personas hermosas, siempre y cuando no hurgues muy profundo en ellas.",
+				"nb": "Elitene har dominert den velstående overklassen, der de tar fryd i denne jordas gleder. Et vakkert folkeslag, så lenge du ikke graver for dypt.",
+				"it": "Deliziando i piaceri di questo mondo, gli Elite hanno dominato la ricca classe dirigente. Sono persone bellissime, fino a quando non scavi troppo in profondità.",
+				"hu": "Nagy figyelemben gyönyörködhetnek az elitek a mai világban. Ők uralják az egész világot! Nagyon szép természetűek, amíg nem ásnak túl mélyre...",
+				"pl": "Rozkoszując się przyjemnościami tego świata, Elici zdominowali zamożne klasy społeczeństwa. Piękni ludzie, póki nie kopiesz za głęboko."
+			}
+		},
+		"ze": {
+			"name": {
+				"en": "Zealot",
+				"ko": "열광 자",
+				"ct": "mewoowo",
+				"fr": "Fanatique",
+				"pi": "Priest",
+				"lt": "Fanatikai",
+				"ne": "Zeloot",
+				"sv": "Zealot",
+				"es": "Fanático",
+				"nb": "Selot",
+				"it": "Fanatico",
+				"hu": "Zelóta",
+				"pl": "Zealot"
+			},
+			"desc": {
+				"en": "Always certain of the truth, Zealots are more than willing to fight for it. The fires of constant war have honed their military skills to perfection.",
+				"ko": "진리를 항상 일정, 질럿 그것을 위해 싸울 의도보다는 좀더. 지속적인 전쟁의 불이 완벽하게 자신의 군사 기술을 연마했다.",
+				"ct": "mewoowo",
+				"fr": "Toujours certains de détenir la vérité, les Fanatiques sont plus que déterminés à se battre pour elle. Les feux constants de la guerre ont aiguisé leurs compétences militaires à la perfection.",
+				"pi": "The priests are a pirate's bain, preaching' what be right and what be wrong. Filthy landlubbers.",
+				"lt": "Patirtis įgauta kovų metu, vardan savosios tiesos, visiškai ištobulinų Fanatikų armija. ",
+				"ne": "Zeloten zijn altijd zeker van de waarheid, en meer dan bereid ervoor te vechten. De vuren van hun constante oorlog hebben hun militaire vaardigheid tot perfectie aangescherpt.",
+				"sv": "Alltid säker på sanningen, zeloterna är mer än villiga att kämpa för det. Bränderna i konstanta krig har finslipat sina militära färdigheter till perfektion.",
+				"es": "Siempre seguros de la verdad, los Fanáticos están más que dispuestos a luchar por ella. Las llamas de la guerra constante han hecho que sus habilidades militares alcancen la perfección.",
+				"nb": "Alltid sikker på sannheten, er Seloter mer enn villig til å kjempe for den. Brannene av konstant krig har finpusset deres militære ferdigheter til perfeksjon.",
+				"it": "Sempre certi della verità, i Fanatici sono più che disposti per combattere per lei. I focolari di guerra costante hanno portato le loro abilità militari alla perfezione.",
+				"hu": "Mindig képesek harcolni nagy elszántsággal ha kell. Ők a zelóták, kik a forró tűzharcok idején elnyerték maguknak minden lehetséges harcképesség tudásukat.",
+				"pl": "Zawsze świadomi prawdy, Zealoci bardziej pragną za nią walczyć. Ognie ciągłej wojny wyostrzyły zmysły i zdolności ich żołnierzy do perfekcji."
+			}
+		}
+	},
+	"fractureModal": {
+		"fractureAquired": {
+			"en": "Fracture Aquired!",
+			"ne": "Breuk bemachtigd!",
+			"hu": "Törés Szerzett!",
+			"fr": "Fracture obtenue !",
+			"pi": "Fractarrr obtained!"
+		}
+	},
+	"fractures": [
+		{
+			"en": "After finishing his performance at the theater, John Wilkes Booth hurried to his dressing room. He began changing out of his stage clothes immediately, he wanted nothing more than to get them off. A knock on the door interrupted him mid-pants. Booth opened the door a crack and peeked though. The boy on the other side looked a bit flush as he waved a telegram. \"I read it, sir.\", the boy said. \"It's your mother, they say she has some kind of sickness they've never seen before.\"",
+			"ne": "Nadat zijn voorstelling in het theater afgelopen was, haastte John Wilkes Booth zich naar zijn kleedkamer. Hij begon zich onmiddelijk om te kleden, hij wilde niets liever dan zijn kleren uittrekken. Terwijl hij met zijn broek bezig was werd hij onderbroken door kloppen op de deur. Booth opende de deur en keek door de spleet naar buiten. De jongen aan de andere kant bloosde een beetje terwijl hij met een telegram zwaaide. \"Ik heb het al gelezen, meneer.\", zei de jongen. \"Het is je moeder, ze zeggen dat ze een soort van ziekte heeft die ze nog nooit erder hebben gezien.\"",
+			"fr": "Après sa performance au théâtre, John Wilkes Booth se rua vers sa loge. Il se dépêcha d'enlever ses vêtements de scène, c'était tout ce qu'il voulait. Un coup à la porte l'interrompit alors qu'il enlevait ses pantalons. Il ouvrit la porte un peu pour regarder. Le garçon de l'autre côté semblait gêné pendant qu'il montrait un message. «Je l'ai lu, monsieur», dit-il. «C'est votre mère, ils disent qu'elle a une sorte de maladie qu'ils n'ont jamais vue avant.",
+			"hu": "Miután befejezte az előadását a színházban, John Wilkes Booth sietett az öltözőszobájába. Elkezdett átöltözni azonnal, nem akart mást csak megválni a sok rajta feszülő kelléken. Mikor a gatyáját küzdte le magáról, valaki kopogtatott. Kinyílt az ajtó: a fiú bekukucskált egy kicsit majd elkezdte: \"Elolvastam uram.\", mondta. \"Az ön anyja... azt mondták az ön anyjának valamilyen soha nem látott betegsége van.\"",
+			"pi": "After he finishing wussying around on the stage, John Wilkes Booth rushed to his changin' quarters. He began changin' out of his stage garb; he wanted nothing but his sailor's clothes. A knock at the door made him pause, trousers half undone. He opened the door a sliver and spied through. The lad in the hall looked nervous as he waved a telegram. \"I can't read, sir.\", the lad told him. \"The postmaster told me that it's about your mother... she has some sort of sickness they've never seen before.\""
+		},
+		{
+			"en": "Heads or tails, call it. \"Heads!\" The ref flipped the coin into the air, but not before pausing a moment to wonder how it got all scratched up. It was his favorite coin, too.",
+			"ne": "Kop of munt, zeg het maar. \"Kop!\" De scheidsrechter gooide de munt op, maar eerst vroeg hij zich even af hoe al die krassen er op waren gekomen. Het was nog wel zijn favoriete munt.",
+			"fr": "Pile ou face ? « Face !» L'arbitre lança la pièce en l'air, mais pas avant de prendre une pause pour se demander comment elle s'était abîmée. C'était sa pièce préférée, après tout.",
+			"hu": "Fej vagy írás? \"Fej!\" Az fény visszacsillogott a forduló érméről, mely egy pillanatra megált a levegőben, hogy mindenki láthassa karcolásait. Ez volt a kedves érméje.",
+			"pi": "\"Skulls or bones, choice be yours.\" \"Skulls, matey!\" the pirate drawled. The adjudicator tossed the coin up after pausing a second to wonder when it had gotten scuffed. It was his choice piece o' eight, too."
+		},
+		{
+			"en": "Julia Lennon said goodbye to her friends and turned to cross the street. To her dismay she saw a car burst into flames, screech from side to side, and crash into the hedges behind her. The driver jumped out with a screech of his own and began patting his smoldering clothes. It was later discovered that a faulty seal had been the cause of the fire. Standard Motor Company was forced to issue a recall in response to the public backlash.",
+			"ne": "Julia Lennon zei haar vrienden gedag en draaide zich om om de straat over te steken. Tot haar afschuw zag ze een auto in valmmen uitbarsten, gierend heen en weer zwaaien, en in de heggen achter haar tot stilstand komen. De bestuurder sprong uit de auto, zelf ook gierend, en begon zijn smeulende kleren uit te slaan. Er werd later ontdekt dat een kapotte zegel het vuur had veroorzaakt. Standard Motor Company was gedwongen om de auto's terug te roepen als reactie op de publieke verontwaardiging.",
+			"fr": "Julia Lennon dit aurevoir à ses amis avant de se retourner et de traverser la rue. À son grand désarroi, elle vit une voiture s'enflammer, déraper d'un côté à l'autre et s'écraser dans les haies derrière elle. Le conducteur sortit avec un cri et commença à tapoterr ses vêtements fumants. La cause du feu, découvere plus tard, était un joint défectueux. La Standard Motor Company a été obligée de lancer un rappel suite à la réaction de la population.",
+			"hu": "Julia Lenonn elköszönt barátaitól, majd hazaindult. Meglátott egy égő autót lezuhanni a sövény mögé, melyből egy sikoltó ember ugrott ki. A férfi ijedten oltogatta az égő ruháit. Később kiderült a kipufogó cső volt a hibás.",
+			"pi": "Jules Lenn'n wished her friends goodbye to her maties and turned to set sail. To her utter dismay, the ship next to hers started smoldering at the helm, tip to the side, and fall on the dock next to her ship. The cap'n, ablaze, jumped into the harbor to put himself off, all the while  yelling \"ABANDON SHIP!\". It was later discovered that some faulty gunpowder had ignited and set the ship ablaze, while also punchin' a hole in the bottom o' the ship. Gundpowder 'R' Us subsequently went out of business since no pirates would buy their poweder."
+		}
+	],
+	"futures": {
+		"capt": {
+			"name": {
+				"en": "Capitalism",
+				"pi": "Alchoholism",
+				"ne": "Kapitalisme",
+				"fr": "Capitalisme"
+			},
+			"desc": {
+				"en": "Elites siphon health when they attack.",
+				"pi": "Swashbucklers siphon rum from ships when they attack.",
+				"ne": "Als Elites aanvallen, stelen ze levens.",
+				"fr": "Les élites siphonnent des points de santé lors d'une attaque"
+			}
+		},
+		"norm": {
+			"name": {
+				"en": "Normal",
+				"pi": "Sunny seas",
+				"ne": "Normaal",
+				"fr": "Normal"
+			},
+			"desc": {
+				"en": "A perfectly normal future.",
+				"pi": "Nothing of interest happens. A parrot sneezes.",
+				"ne": "Een volkomen normale toekomst.",
+				"fr": "Un futur tout-à-fait normal"
+			}
+		},
+		"ares": {
+			"name": {
+				"en": "Ares Rising",
+				"pi": "Mars is bright",
+				"ne": "Mars komt op",
+				"fr": "Montée d'Ares"
+			},
+			"desc": {
+				"en": "Zealots get +1 attack after killing an enemy.",
+				"pi": "Priests gain 1 cannon after destroying an enemy ship.",
+				"ne": "Zeloten krijgen +1 aanval na het doden van een vijand.",
+				"fr": "Les fanatiques gagnent 1 point d'attaque après avoir tué un ennemi"
+			}
+		},
+		"eden": {
+			"name": {
+				"en": "Eden",
+				"pi": "Jone's Locker",
+				"ne": "Eden",
+				"fr": "Eden"
+			},
+			"desc": {
+				"en": "Trees gain 1 health every turn.",
+				"pi": "Krakens gain 1 rum per turn.",
+				"ne": "Bomen krijgen elke beurt 1 leven erbij.",
+				"fr": "Les arbres gagnent 1 point de santé par tour"
+			}
+		},
+		"assm": {
+			"name": {
+				"en": "Assimilation",
+				"pi": "Assimilation",
+				"ne": "Assimilatie",
+				"fr": "Assimilation"
+			},
+			"desc": {
+				"en": "All cards become machines.",
+				"pi": "All ships become inventors.",
+				"ne": "Alle kaarten worden machines.",
+				"fr": "Toutes les cartes deviennent des machines"
+			}
+		},
+		"nuke": {
+			"name": {
+				"en": "Nuclear War",
+				"pi": "Grapeshot",
+				"ne": "Kernoorlog",
+				"fr": "Guerre nucléaire"
+			},
+			"desc": {
+				"en": "All cards receive 1 damage after an attack.",
+				"pi": "All ships lose 1 extra rum after attacks",
+				"ne": "Telkens als iemand aanvalt verliezen alle kaarten 1 leven.",
+				"fr": "Totues les cartes reçoivent 1 dommage après une attaque"
+			}
+		},
+		"free": {
+			"name": {
+				"en": "Free Love",
+				"ne": "Gratis Liefde",
+				"lt": "Romantika",
+				"hu": "Ingyen Szeretet",
+				"nb": "Fri kjærlighet",
+				"pi": "Party",
+				"it": "Amore gratis",
+				"fr": "Amour inconditionnel",
+				"pl": "Panaceum"
+			},
+			"desc": {
+				"en": "Cards that rest gain 1 health.",
+				"ne": "Kaarten die niets doen krijgen 1 leven.",
+				"lt": "Nepuolanti korta, gauna 1 papildomą gyvybės tašką.",
+				"hu": "A nem támadó kártyák elnyernek 1 élet pontot.",
+				"nb": "Kort som ikke angriper får ett helsepoeng.",
+				"pi": "Ships that don't fight drink 1 rum.",
+				"it": "Le carte che non attaccano guadagnano 1 punto vita.",
+				"fr": "Les cartes au repos gagnent 1 point de santé",
+				"pl": "Karty, które nie atakują zyskują 1 punkt życia."
+			}
+		},
+		"blod": {
+			"name": {
+				"en": "Blood Feud",
+				"ne": "Bloedvete",
+				"lt": "Kraujo praliejimas",
+				"hu": "Vérbosszú",
+				"nb": "Blodfeide",
+				"pi": "Rage",
+				"it": "Fiotto di sangue",
+				"fr": "Rage de sang",
+				"pl": "Żądza krwi"
+			},
+			"desc": {
+				"en": "All cards must attack.",
+				"ne": "Alle kaarten moeten aanvallen.",
+				"lt": "Visos kortos privalo pulti.",
+				"hu": "Az összes kártyának muszáj támadnia!",
+				"nb": "Alle kort må angripe.",
+				"pi": "All ships must attack.",
+				"it": "Tutte le carte devono attaccare.",
+				"fr": "Toutes les cartes doivent attaquer",
+				"pl": "Wszystkie karty muszą atakować."
+			}
+		},
+		"rena": {
+			"name": {
+				"en": "Renaissance",
+				"ne": "Renaissance",
+				"lt": "Renesansas",
+				"hu": "Reneszánsz",
+				"nb": "Rennesanse",
+				"pi": "Golden era",
+				"it": "Rinascimento",
+				"fr": "Renaissance",
+				"pl": "Renesans"
+			},
+			"desc": {
+				"en": "Player cards can perform two actions per turn.",
+				"pi": "Player ships can act twice per turn.",
+				"ne": "Aanvoerders kunnen twee acties per beurt uitvoeren.",
+				"fr": "Les cartes maîtres peuvent utiliser deux actions par tour",
+				"hu": "A játékosok elnyernek 2 extra büszkeségpontot menetenként."
+			}
+		},
+		"comm": {
+			"name": {
+				"en": "Communism",
+				"ne": "Communisme",
+				"lt": "Komunizmas",
+				"hu": "Kommunizmus",
+				"nb": "Kommunisme",
+				"pi": "Commies",
+				"it": "Comunismo",
+				"fr": "Communisme",
+				"pl": "Komunizm"
+			},
+			"desc": {
+				"en": "Every action has a 50% chance to fail.",
+				"ne": "Elke actie heeft 50% kans om te falen.",
+				"lt": "Kiekvienam veiksmui yra 50% galimybė susimauti.",
+				"hu": "Az összes akció 50% eséllyel megbukik.",
+				"nb": "Hver handling har en 50% sjangse for å mislykkes.",
+				"pi": "All plots be as likely to succeed as heads on a coin.",
+				"it": "Ogni azione ha una probabilità del 50% di fallire.",
+				"fr": "Chaque action a 50% des chances d'échouer",
+				"pl": "Każda akcja ma 50% szansy na niepowodzenie."
+			}
+		},
+		"thdr": {
+			"name": {
+				"en": "Thunderdome",
+				"ne": "Koepel",
+				"lt": "Cenzas",
+				"hu": "Thunderdome",
+				"nb": "Tordenskuppel",
+				"pi": "Thunderstorm",
+				"it": "Fulmini",
+				"fr": "Thunderdome",
+				"pl": "Cenzura"
+			},
+			"desc": {
+				"en": "No new cards can be played.",
+				"ne": "Er kunnen geen nieuwe kaarten meer worden gespeeld.",
+				"lt": "Kovos lauke nebegalima padėti naujų kortų.",
+				"hu": "Új kártyák nem játszhatnak!",
+				"nb": "Ingen nye kort kan spilles.",
+				"pi": "No new cards can enter the battlefield.",
+				"it": "Non possono essere giocate nuove carte.",
+				"fr": "Aucune nouvelle carte ne peut être jouée",
+				"pl": "Nie można wprowadzić nowych kart na pole gry."
+			}
+		},
+		"anar": {
+			"name": {
+				"en": "Anarchy",
+				"ne": "Anarchie",
+				"lt": "Anachija",
+				"hu": "Anarchia",
+				"nb": "Anarki",
+				"pi": "Anchorarchy",
+				"fr": "Anarchie",
+				"pl": "Anarchia"
+			},
+			"desc": {
+				"en": "All cards gain the move ability.",
+				"ne": "Alle kaarten kunnen zich verplaatsen.",
+				"lt": "Visos kortos įgauna judėjimo sugebėjimą.",
+				"hu": "Az összes kártya elnyeri a mozgás képességet.",
+				"nb": "Alle kort får flytteegenskapen.",
+				"pi": "All ships take up thar anchors and can sail about.",
+				"fr": "Toutes les cartes peuvent se déplacer",
+				"pl": "Każda karta może się poruszać."
+			}
+		},
+		"mira": {
+			"name": {
+				"en": "Miracle",
+				"ne": "Wonder",
+				"lt": "Stebuklas",
+				"hu": "Csoda",
+				"nb": "Mirakel",
+				"pi": "Davy Jone's favor",
+				"it": "Miracolo",
+				"fr": "Miracle",
+				"pl": "Cud"
+			},
+			"desc": {
+				"en": "Cards stay alive until their health reaches -10.",
+				"ne": "Kaarten blijven in leven tot ze -10 levens hebben.",
+				"lt": "Visos kortos išlieka gyvos iki kol jų gyvybių taškai pasiekia -10.",
+				"hu": "A kártyák életben maradnak ameddig az életük -10 alá nem esik.",
+				"nb": "Kort forblir i live til helsepoengene deres når -10.",
+				"pi": "Ships don't sink until they have -10 rum.",
+				"it": "Le carte possono stare in vita fino a quando la loro salute raggiunge -10.",
+				"fr": "Les cartes restent en vie jusqu'à ce que leur santé tombe à -10",
+				"pl": "Karty nie umierają, póki ich punkty życia nie osiągną -10."
+			}
+		},
+		"zvir": {
+			"name": {
+				"en": "Z Virus",
+				"ne": "Z Virus",
+				"lt": "Z Virusas",
+				"hu": "Z Virus",
+				"nb": "Z-virus",
+				"pi": "Davy Jones's Curse",
+				"fr": "Virus Z",
+				"pl": "Wirus Z"
+			},
+			"desc": {
+				"en": "Cards that would die become zombies instead.",
+				"ne": "Kaarten die dood zouden gaan, worden zombies.",
+				"lt": "Mirties atvėju, korta tampa zombiu.",
+				"hu": "A halálra ítélt kártyák nem halnak meg, zombivá alakulnak.",
+				"nb": "Kort som ville dødd blir til zombier i stedet.",
+				"pi": "All ships that sink becomes servants of Davy Jones.",
+				"fr": "Les cartes mortes devienent des zombies",
+				"pl": "Karty, które umierają stają sie kartami zombie."
+			}
+		},
+		"arma": {
+			"name": {
+				"en": "Armageddon",
+				"ne": "Einde der tijden",
+				"lt": "Armagėdonas",
+				"hu": "Armageddon",
+				"nb": "Armageddon",
+				"pi": "Armageddon",
+				"it": "Armageddon",
+				"fr": "Armageddon",
+				"pl": "Armageddon"
+			},
+			"desc": {
+				"en": "All cards lose 1 health per turn.",
+				"ne": "Alle kaarten verliezen 1 leven elke beurt.",
+				"lt": "Visos kortos, kiekvieną ėjimą praranda po 1 gyvybės tašką.",
+				"hu": "Az összes kártya elveszíti 1 életét menetenként.",
+				"nb": "Alle kort mister 1 helsepoeng i runden.",
+				"pi": "All ships are on fire and lose 1 rum each turn.",
+				"it": "Tutte le carte perdono 1 punto vita per turno.",
+				"fr": "Toutes les cartes perdent 1 point de santé par tour",
+				"pl": "Każda karta traci co turę 1 punkt życia"
+			}
+		}
+	},
+	"gameEndModal": {
+		"victory": {
+			"en": "Victory"
+		},
+		"defeat": {
+			"en": "Timeline Disrupted"
+		},
+		"uninvolved": {
+			"en": "Match Complete"
+		},
+		"tweet": {
+			"en": "Tweet"
+		},
+		"share": {
+			"en": "Share"
+		},
+		"summary": {
+			"en": "Summary"
+		},
+		"continue": {
+			"en": "Continue"
+		},
+		"shareMatch": {
+			"en": "Share your match"
+		}
+	},
+	"game": {
+		"endTurn": {
+			"en": "End Turn",
+			"ct": "meow",
+			"ne": "Eindig Beurt",
+			"lt": "Užbaigti ėjimą",
+			"hu": "Menet Befejezése",
+			"nb": "Avslutt turen",
+			"pi": "Hit the bunk",
+			"it": "Termina turno",
+			"fr": "Fin du tour",
+			"pl": "Zakończ turę",
+			"sv": "Avsluta rundan"
+		},
+		"pride": {
+			"en": "Pride",
+			"ct": "meow",
+			"ne": "Trots",
+			"lt": "Vertė",
+			"hu": "Büszkeség",
+			"nb": "Stolthet",
+			"pi": "Pride",
+			"it": "Valore",
+			"fr": "Valeur",
+			"pl": "Duma",
+			"sv": "Pride"
+		},
+		"close": {
+			"en": "close",
+			"ct": "meow",
+			"ne": "sluiten",
+			"lt": "Uždaryti",
+			"hu": "bezár",
+			"nb": "lukk",
+			"pi": "Seal",
+			"it": "chiudi",
+			"fr": "Fermer",
+			"pl": "Zamknij",
+			"sv": "sluta"
+		},
+		"futures": {
+			"en": "Futures",
+			"ct": "meow",
+			"ne": "Toekomsten",
+			"lt": "Futuristikos taškai",
+			"hu": "Jövendők",
+			"nb": "Fremtider",
+			"pi": "Days after tomorrow",
+			"it": "Futures",
+			"fr": "Futurs",
+			"pl": "Przyszłości",
+			"sv": "Framtid"
+		},
+		"forfeit": {
+			"en": "Leave Game",
+			"ct": "meow",
+			"ne": "Opgeven",
+			"lt": "Pasitraukti",
+			"hu": "Kilépés",
+			"nb": "Forlat kampen",
+			"pi": "Abandon ship",
+			"it": "Abbandona",
+			"fr": "Abandonner",
+			"pl": "Zrezygnuj",
+			"sv": "Abdonnera"
+		}
+	},
+	"groups": {
+		"g": {
+			"en": "Guest",
+			"ne": "Gast",
+			"fr": "Invité",
+			"hu": "Guest",
+			"pi": "Deckhand",
+			"sv": "Gäst"
+		},
+		"u": {
+			"en": "Member",
+			"ne": "Lid",
+			"fr": "Membre",
+			"hu": "Member",
+			"pi": "Sailor",
+			"sv": "Medlem"
+		},
+		"p": {
+			"en": "Apprentice",
+			"ne": "Leerling",
+			"fr": "Apprenti",
+			"hu": "Apprentice",
+			"pi": "Pirate",
+			"sv": "Lärling"
+		},
+		"m": {
+			"en": "Moderator",
+			"ne": "Moderator",
+			"fr": "Modérateur",
+			"hu": "Moderátor",
+			"pi": "First mate",
+			"sv": "Moderator"
+		},
+		"a": {
+			"en": "Admin",
+			"ne": "Admin",
+			"fr": "Admin",
+			"hu": "Admin",
+			"pi": "Cap'n",
+			"sv": "Admin"
+		}
+	},
+	"guildCreateModal": {
+		"createGuild": {
+			"en": "Create Guild",
+			"ne": "Maak Gilde",
+			"lt": "Sukurti Gildiją",
+			"pi": "Found guild",
+			"nb": "Lag et laug",
+			"fr": "Créer une guilde",
+			"pl": "Załóz gildie",
+			"sv": "Skapa ett Guild"
+		},
+		"edit": {
+			"en": "Edit",
+			"ne": "Bewerken",
+			"fr": "Modifier",
+			"pi": "Fix",
+			"sv": "Modifiera"
+		},
+		"name": {
+			"en": "Name",
+			"ne": "Naam",
+			"fr": "Nom",
+			"pi": "Name",
+			"sv": "Namn"
+		},
+		"desc": {
+			"en": "Desc",
+			"ne": "Beschrijving",
+			"fr": "Description",
+			"pi": "Reputation",
+			"sv": "Beskrivning"
+		},
+		"joinPolicy": {
+			"en": "Join Policy",
+			"ne": "Regels voor nieuwe leden",
+			"lt": "Įstojimo tipas",
+			"pi": "Enlistment policy",
+			"nb": "Deltagelsesregler",
+			"fr": "Politique d'adhésion",
+			"pl": "Warunki dołączenia",
+			"hu": "Csatlakozási Beállítás",
+			"sv": "Medlemsregler"
+		},
+		"banner": {
+			"en": "Banner",
+			"ne": "Logo",
+			"lt": "Logotipas",
+			"pi": "Flag",
+			"nb": "Banner",
+			"fr": "Bannière",
+			"pl": "Banner",
+			"hu": "Logó",
+			"sv": "Banner"
+		}
+	},
+	"guildJoinPolicy": {
+		"open": {
+			"name": {
+				"en": "Open",
+				"ne": "Open",
+				"lt": "Atvira",
+				"pi": "Open doors",
+				"pl": "Otwarta",
+				"fr": "Libre",
+				"nb": "Åpent",
+				"hu": "Megnyitás"
+			},
+			"desc": {
+				"en": "Anyone can join this guild.",
+				"ne": "Iedereen kan in het gilde komen.",
+				"lt": "Į šią Gildiją gali įstoti visi.",
+				"pi": "Any pirate may join this crew.",
+				"pl": "Każdy może dołączyć do tej gildii.",
+				"fr": "N'importe qui peut rejoindre la guilde",
+				"nb": "Alle kan bli med i dette lauget.",
+				"hu": "Bárki csatlakozhat ehhez a klánhoz."
+			}
+		},
+		"invite": {
+			"name": {
+				"en": "Invite",
+				"ne": "Uitnodigen",
+				"lt": "Tik su pakvietimu",
+				"pi": "Private",
+				"pl": "Prywatna",
+				"fr": "Invitation",
+				"nb": "Privat",
+				"hu": "Meghívás"
+			},
+			"desc": {
+				"en": "Only invited players can join this guild.",
+				"ne": "Alleen uitgenodigde spelers kunnen in het gilde komen.",
+				"lt": "Tik pakviesti žaidėjai gali įstoti į šią Gildiją",
+				"pi": "Pirates must have a letter to join this guild.",
+				"pl": "Tylko zaproszeni gracze mogą dołączyć do tej gildii.",
+				"fr": "Seuls les joueurs invités peuvent rejoindre la guilde",
+				"nb": "Bare inviterte spillere kan bli med i dette lauget.",
+				"hu": "Csak meghívott játékosok csatlakozhatnak ehhez a klánhoz."
+			}
+		},
+		"ask": {
+			"name": {
+				"en": "Ask",
+				"ne": "Op aanvraag",
+				"lt": "Tik su užklausa",
+				"pi": "Inquiry only",
+				"pl": "Moderatowana",
+				"fr": "Demande",
+				"nb": "Spør",
+				"hu": "Kérelem"
+			},
+			"desc": {
+				"en": "Players must ask or be invited to join this guild.",
+				"ne": "Spelers moeten gevraagd hebben of uitgenodigd zijn om bij het gilde te komen.",
+				"lt": "Žaidėjai turi atsiusti užklausą arba būti pakviesti kad galėtu įstoti į šią Gildiją",
+				"pi": "Pirates must either have their request approved or have a letter to join this guild.",
+				"pl": "Aby dołączyć, musisz sie zapytać lub zostać zaproszonym.",
+				"fr": "Les joueurs doivent demander ou êtres invités pour rejoindre la guilde",
+				"nb": "Spillere må spørre eller være invitert for å bli med i dette lauget.",
+				"hu": "A játékosoknak kérniük kell vagy meghívottnak kell lenniük hogy csatlakozhassanak."
+			}
+		}
+	},
+	"guildJoiner": {
+		"title": {
+			"en": "Join a Guild",
+			"ne": "Tot een Gilde toetreden",
+			"lt": "Stoti į Gildiją",
+			"pi": "Enlist",
+			"nb": "Bli med i lauget",
+			"fr": "Rejoindre une guilde",
+			"pl": "Dołacz do gildii",
+			"hu": "Csatlakozás Klánhoz"
+		},
+		"join": {
+			"en": "Join",
+			"ne": "Toetreden",
+			"lt": "Įstoti",
+			"pi": "Enlist",
+			"pl": "Dołącz",
+			"fr": "Rejoindre",
+			"nb": "Bli med",
+			"hu": "Csatlakozás"
+		}
+	},
+	"guildList": {
+		"perk1": {
+			"en": "Top guild unlocks black cards",
+			"hu": "A legjobb klán megszerzi a fekete kártyákat",
+			"ne": "Het hoogste gilde krijgt zwarte kaarten",
+			"fr": "La meilleure guilde débloque les cartes noires",
+			"pi": "Top guild unlocks black ships 'o' death."
+		},
+		"perk2": {
+			"en": "Top 5 guilds can create fractures once a day",
+			"hu": "A legjobb 5 klán készíthet saját töréseket napi egyszer",
+			"ne": "De top 5 van gildes kan eens per dag breuken maken",
+			"fr": "Les 5 meilleures guildes peuvent générer des fractures une fois par jour",
+			"pi": "Top 5 guilds can create fractures once a day."
+		},
+		"perk3": {
+			"en": "Top 20 guilds earn fame 25% faster",
+			"hu": "A legjonn 20 klán 25%-kal gyorsabban ér el hírnevet",
+			"ne": "De top 20 van gildes krijgt 25% sneller roem",
+			"fr": "Les 20 meilleures guildes gagnent de la réputation 25% plus vite",
+			"pi": "Top 20 guilds earn reputation 1 quart faster."
+		},
+		"join": {
+			"en": "Join a Guild",
+			"hu": "Csatlakozás egy Klánhoz",
+			"ne": "Tot een gilde toetreden",
+			"fr": "Rejoindre une guilde",
+			"pi": "Enlist in a Guild"
+		},
+		"create": {
+			"en": "Create a Guild",
+			"hu": "Készíts egy Klánt",
+			"ne": "Een gilde maken",
+			"fr": "Créer une guilde",
+			"pi": "Form a guild"
+		},
+		"myGuild": {
+			"en": "My Guild",
+			"hu": "A Klánom",
+			"ne": "Mijn gilde",
+			"fr": "Ma guilde",
+			"pi": "Yar guild"
+		}
+	},
+	"guildStats": {
+		"leaders": {
+			"en": "Leaders",
+			"ne": "Leiders",
+			"lt": "Vadovai",
+			"pi": "Cap'ns",
+			"pl": "Dowódcy",
+			"fr": "Chefs",
+			"nb": "Ledere",
+			"hu": "Vezetők"
+		},
+		"mods": {
+			"en": "Mods",
+			"ne": "Mods",
+			"fr": "Mods",
+			"pi": "First mates"
+		},
+		"members": {
+			"en": "Members",
+			"ne": "Leden",
+			"lt": "Nariai",
+			"pi": "Sailors",
+			"pl": "Członkowie",
+			"fr": "Membres",
+			"nb": "Medlemmer",
+			"hu": "Tagok"
+		},
+		"gpToday": {
+			"en": "GP Today",
+			"ne": "GP Vandaag",
+			"lt": "Šiandienos GP",
+			"pi": "Gold today",
+			"pl": "GP dziś",
+			"fr": "PG aujourd'hui",
+			"nb": "GP i dag",
+			"hu": "GP Ma"
+		},
+		"founded": {
+			"en": "Founded",
+			"ne": "Gesticht",
+			"lt": "Įkurta",
+			"pi": "Founded",
+			"pl": "Założona",
+			"fr": "Fondée",
+			"nb": "Grunnlagt",
+			"hu": "Alapított"
+		}
+	},
+	"guild": {
+		"ask": {
+			"en": "Ask to Join",
+			"ne": "Vragen om toe te treden",
+			"fr": "Demander à rejoindre",
+			"pi": "Inquire within"
+		},
+		"join": {
+			"en": "Join",
+			"ne": "Toetreden",
+			"fr": "Rejoindre",
+			"hu": "Csatlakozás",
+			"pi": "Enlist"
+		},
+		"edit": {
+			"en": "Edit",
+			"ne": "Bewerken",
+			"fr": "Modifier",
+			"pi": "Fix"
+		},
+		"leave": {
+			"en": "Leave This Guild",
+			"ne": "Het gilde verlaten",
+			"fr": "Quitter la guilde",
+			"pi": "Turn coat"
+		},
+		"perks": {
+			"en": "Active Perks",
+			"ne": "Actieve Bonussen",
+			"fr": "Avantages actifs",
+			"pi": "Extra rum"
+		},
+		"none": {
+			"en": "None",
+			"ne": "Geen",
+			"fr": "Aucun",
+			"pi": "None"
+		},
+		"stats": {
+			"en": "Stats",
+			"ne": "Statistieken",
+			"fr": "Statistiques",
+			"pi": "History"
+		},
+		"gpWeek": {
+			"en": "GP This Week",
+			"fr": "PG cette semaine"
+		}
+	},
+	"invitesModal": {
+		"title": {
+			"en": "Guild Invitations",
+			"hu": "Klán Meghívások",
+			"ne": "Gilde uitnodigingen",
+			"fr": "Invitations de guilde",
+			"pi": "Guild invitations"
+		},
+		"close": {
+			"en": "Close",
+			"hu": "Bezárás",
+			"ne": "Sluiten",
+			"fr": "Fermer",
+			"pi": "Seal"
+		},
+		"wantYou": {
+			"en": "wants you to join!",
+			"hu": "csatlakozni szeretne!",
+			"ne": "wil dat je toetreedt!",
+			"fr": "veut que vous les rejoignez !",
+			"pi": "wants you to strongs consider their guild"
+		},
+		"join": {
+			"en": "Join",
+			"hu": "Csatlakozás",
+			"ne": "Toetreden",
+			"fr": "Rejoindre",
+			"pi": "Enlist"
+		},
+		"delete": {
+			"en": "Delete",
+			"hu": "Törlés",
+			"ne": "Verwijderen",
+			"fr": "Supprimer",
+			"pi": "Burn"
+		}
+	},
+	"loadup": {
+		"maxDeckSize": {
+			"en": "Max Size",
+			"pl": "Max. Wielkość Dumy",
+			"pi": "Max Size",
+			"ne": "Max Grootte",
+			"fr": "Taille maximale",
+			"hu": "Max Méret",
+			"sv": "Maxstorlek"
+		},
+		"selectDeck": {
+			"en": "Select a Deck!",
+			"pi": "Choose your fleet!",
+			"ne": "Kies je Deck!",
+			"fr": "Choisir un paquet",
+			"hu": "Válassz egy Kártyacsomagot!",
+			"sv": "Välj en Deck!"
+		},
+		"select": {
+			"en": "Select",
+			"pi": "Select",
+			"ne": "Selecteren",
+			"fr": "Choisir",
+			"hu": "Választ",
+			"sv": "Välj"
+		},
+		"futures": {
+			"en": "Futures!",
+			"pi": "Tomorrows!",
+			"ne": "Toekomsten!",
+			"fr": "Futurs",
+			"hu": "Jövendők!",
+			"sv": "Framtid"
+		},
+		"selectFutureSingular": {
+			"en": "Select a Future!",
+			"pi": "Select the day after tomorrow!",
+			"ne": "Selecteer een Toekomst!",
+			"fr": "Choisir un futur",
+			"hu": "Válassz egy Jövendőt!"
+		},
+		"myDecks": {
+			"en": "My Decks",
+			"fr": "Mes paquets",
+			"sv": "Mina Decks"
+		},
+		"favoriteDecks": {
+			"en": "Favorite Decks",
+			"fr": "Paquets favoris",
+			"sv": "Favorit Decks"
+		},
+		"hotDecks": {
+			"en": "Popular Decks",
+			"fr": "Paquets polulaires",
+			"sv": "Populära Deckar"
+		},
+		"none": {
+			"en": "None",
+			"fr": "Aucun",
+			"sv": "Ingen"
+		}
+	},
+	"lobby": {
+		"player": {
+			"en": "players",
+			"ko": "플레이어",
+			"ct": "meow",
+			"fr": "Joueurs",
+			"pi": "Sailor",
+			"lt": "Žaidėjai",
+			"ne": "spelers",
+			"sv": "spelare",
+			"es": "jugadores",
+			"nb": "spillere",
+			"it": "Giocatori",
+			"hu": "játékosok",
+			"pl": "gracze"
+		},
+		"deckSize": {
+			"en": "cards",
+			"pl": "karty",
+			"pi": "ships",
+			"ne": "kaarten",
+			"fr": "Cartes",
+			"hu": "kártyák",
+			"sv": "kort"
+		},
+		"join": {
+			"en": "Join",
+			"ko": "가입",
+			"ct": "meow",
+			"fr": "Rejoindre",
+			"pi": "Board",
+			"lt": "Prisijungti",
+			"ne": "meedoen",
+			"sv": "bli med",
+			"es": "unirse",
+			"nb": "bli med",
+			"it": "unisciti",
+			"hu": "csatlakozás",
+			"pl": "graj"
+		},
+		"start": {
+			"en": "Start",
+			"ko": "스타트",
+			"ct": "meow",
+			"fr": "Commencer",
+			"pi": "Set sail",
+			"lt": "Pradėti",
+			"ne": "start",
+			"sv": "starta",
+			"es": "Iniciar",
+			"nb": "start",
+			"it": "inizia",
+			"hu": "indítás",
+			"pl": "start"
+		},
+		"chat": {
+			"en": "chat",
+			"ko": "이야기",
+			"ct": "meow",
+			"fr": "Bavardage",
+			"pi": "Tavern",
+			"lt": "Pokalbiai",
+			"ne": "chat",
+			"sv": "chatt",
+			"es": "chat",
+			"nb": "chatterom",
+			"it": "chat",
+			"hu": "chat",
+			"pl": "czat"
+		},
+		"people": {
+			"en": "people",
+			"ko": "사람들",
+			"ne": "mensen",
+			"ct": "meow",
+			"fr": "Joueurs",
+			"pi": "deckhands",
+			"lt": "Žaidėjai",
+			"sv": "personer",
+			"es": "personas",
+			"nb": "personer",
+			"it": "persone",
+			"hu": "emberek",
+			"pl": "gracze"
+		},
+		"futures": {
+			"en": "futures",
+			"lt": "Futuristikos taškai",
+			"ct": "meow",
+			"sv": "framtider",
+			"fr": "Futurs",
+			"pi": "Days after tomorrow",
+			"nb": "fremtider",
+			"hu": "jövendők",
+			"it": "futures",
+			"ne": "toekomsten",
+			"pl": "przyszłosci"
+		},
+		"shortGame": {
+			"en": "Skirmish",
+			"lt": "Susiremimas",
+			"ct": "meow",
+			"sv": "Kamp",
+			"fr": "Escarmouche",
+			"pi": "Skirmish",
+			"nb": "Kamp",
+			"hu": "Csetepaté",
+			"it": "Scaramuccia",
+			"ne": "Gevecht",
+			"pl": "Potyczka"
+		},
+		"mediumGame": {
+			"en": "Battle",
+			"lt": "Kova",
+			"ct": "meow",
+			"sv": "Slag",
+			"fr": "Bataille",
+			"pi": "Raid",
+			"nb": "Slag",
+			"hu": "Csata",
+			"it": "Battaglia",
+			"ne": "Veldslag",
+			"pl": "Bitwa"
+		},
+		"longGame": {
+			"en": "War",
+			"lt": "Karas",
+			"ct": "meow",
+			"sv": "Krig",
+			"fr": "Guerre",
+			"pi": "War",
+			"nb": "Krig",
+			"hu": "Háború",
+			"it": "Guerra",
+			"ne": "Oorlog",
+			"pl": "Wojna"
+		},
+		"customGame": {
+			"en": "Custom",
+			"ko": "관습",
+			"ct": "Meow",
+			"fr": "Personnaliser",
+			"pi": "Blank map",
+			"lt": "Redaguojamas",
+			"ne": "Aangepast",
+			"sv": "Anpassat",
+			"es": "Personalizado",
+			"it": "Personalizzato",
+			"nb": "Egendefinert",
+			"hu": "Egyéni",
+			"pl": "Batalia"
+		},
+		"custom": {
+			"en": "custom",
+			"ko": "관습",
+			"ct": "meow",
+			"fr": "Personnaliser",
+			"pi": "Blank map",
+			"lt": "Futuristinis",
+			"ne": "aangepast",
+			"sv": "Anpassat",
+			"es": "personalizado",
+			"nb": "Egendefinert",
+			"it": "Personalizzato",
+			"hu": "egyéni",
+			"pl": "batalia"
+		},
+		"guild": {
+			"en": "guild",
+			"ko": "대가족",
+			"ct": "meow",
+			"fr": "Guilde",
+			"pi": "crew",
+			"lt": "Gildija",
+			"ne": "gilde",
+			"sv": "klan",
+			"es": "gremio",
+			"nb": "laug",
+			"it": "clan",
+			"hu": "klán",
+			"pl": "gildia"
+		},
+		"fracture": {
+			"en": "Fracture",
+			"fr": "Fracture",
+			"sv": "Fraktur"
+		}
+	},
+	"messages": {
+		"delete": {
+			"en": "Delete",
+			"ne": "verwijder",
+			"pl": "usun",
+			"nb": "slett",
+			"fr": "Supprimer",
+			"pi": "burn message",
+			"hu": "törlés",
+			"sv": "Ta bort"
+		},
+		"report": {
+			"en": "Report",
+			"ne": "overtreding melden",
+			"pl": "zreportuj",
+			"nb": "rapporter",
+			"fr": "Signaler",
+			"pi": "tip off police",
+			"hu": "jelentés",
+			"sv": "Rapportera"
+		}
+	},
+	"nav": {
+		"applicants": {
+			"en": "Applications",
+			"ne": "Aanmeldingen",
+			"fr": "Applications",
+			"pi": "Wannabe sailors"
+		},
+		"reports": {
+			"en": "Reports",
+			"pl": "Reporty",
+			"pi": "Tip-offs",
+			"ne": "Gereporteerd misbruik",
+			"fr": "Signalement",
+			"hu": "Jelentések"
+		},
+		"modLog": {
+			"en": "Mod Log",
+			"pi": "Police books",
+			"ne": "Mod Log",
+			"fr": "Journal des mods",
+			"hu": "Moderátor Log"
+		},
+		"toggle": {
+			"en": "Toggle Navigation",
+			"ko": "토글",
+			"ct": "meow",
+			"ne": "Navigatie aan/uitzetten",
+			"fr": "Activer la navigation",
+			"pi": "Toggle Map",
+			"lt": "Navigacijos Perjungimas",
+			"sv": "Växla Navigation",
+			"es": "Habilitar barra de navegación",
+			"nb": "Bytt Navigasjon",
+			"it": "Abilita la navigazione",
+			"hu": "Váltás Navigációra",
+			"pl": "Nawigacja"
+		},
+		"futurism": {
+			"en": "Futurism",
+			"ko": "미래의 배",
+			"ct": "meow",
+			"ne": "Futurism",
+			"fr": "Futurisme",
+			"pi": "Day after Tomorrow",
+			"lt": "Futurism",
+			"sv": "Futurism",
+			"es": "Futurismo",
+			"nb": "Futurisme",
+			"it": "Futurismo",
+			"hu": "Futurism",
+			"pl": "Futurism"
+		},
+		"deckBuilder": {
+			"en": "Decks",
+			"ko": "갑판",
+			"ct": "meow",
+			"ne": "Deckbouwer",
+			"fr": "Paquets",
+			"pi": "Mapbook binder",
+			"lt": "Kaladės Dėliojimas",
+			"sv": "Deckbyggare",
+			"es": "Constructor de mazos",
+			"nb": "Kortstokkbygger",
+			"it": "Creatore dei mazzi",
+			"hu": "Kártyacsomag Készítő",
+			"pl": "Edytor talii"
+		},
+		"cardBuilder": {
+			"en": "Cards",
+			"ko": "카드",
+			"ct": "meow",
+			"ne": "Kaartbouwer",
+			"fr": "Cartes",
+			"pi": "Map drawer",
+			"lt": "Kortų kūrimas",
+			"sv": "Korbyggare",
+			"es": "Constructor de cartas",
+			"nb": "Kortbygger",
+			"it": "Creatore delle carte",
+			"hu": "Kártya Készítő",
+			"pl": "Edytor kart"
+		},
+		"lobby": {
+			"en": "Lobby",
+			"ko": "로비",
+			"ct": "meow",
+			"ne": "Lobby",
+			"fr": "Hall",
+			"pi": "Tavern",
+			"lt": "Fojė",
+			"sv": "Lobby",
+			"es": "Lobby",
+			"nb": "Lobby",
+			"it": "Lobby",
+			"hu": "Előcsarnok",
+			"pl": "Lobby"
+		},
+		"stats": {
+			"en": "My Stats",
+			"ko": "통계",
+			"ct": "meow",
+			"ne": "Mijn statistieken",
+			"fr": "Mes statistiques",
+			"pi": "Pirate-ness",
+			"lt": "Mano statusai",
+			"sv": "Min Statistik",
+			"es": "Mis estadísticas",
+			"nb": "Min Statistikk",
+			"it": "Le mie statistiche",
+			"hu": "Statisztikáim",
+			"pl": "Statystyki"
+		},
+		"messages": {
+			"en": "Messages",
+			"ko": "메시지",
+			"ct": "meow",
+			"ne": "Berichten",
+			"fr": "Messages",
+			"pi": "Messages in bottles",
+			"lt": "Žinutės",
+			"sv": "Meddelanden",
+			"es": "Mensajes",
+			"nb": "Meldinger",
+			"it": "Messaggi",
+			"hu": "Üzenetek",
+			"pl": "Wiadomości"
+		},
+		"logout": {
+			"en": "Logout",
+			"ko": "로그 아웃",
+			"ct": "meow",
+			"ne": "Uitloggen",
+			"fr": "Déconnexion",
+			"pi": "Walk the plank",
+			"lt": "Atsijungti",
+			"sv": "Logga ut",
+			"es": "Cerrar sesión",
+			"nb": "Logg ut",
+			"it": "Esci",
+			"hu": "Kijelentkezés",
+			"pl": "Wyloguj się"
+		},
+		"language": {
+			"en": "Language",
+			"ko": "언어",
+			"ct": "meow",
+			"ne": "Taal",
+			"fr": "Langue",
+			"pi": "Tongues",
+			"lt": "Kalba",
+			"sv": "Språk",
+			"es": "Idioma",
+			"nb": "Språk",
+			"it": "Lingua",
+			"hu": "Nyelv",
+			"pl": "Język"
+		},
+		"store": {
+			"en": "T-Machine",
+			"ct": "meow",
+			"lt": "Futuristinai sugebėjimai.",
+			"fr": "Futurs",
+			"sv": "Framitid",
+			"pi": "Days after tomorrow",
+			"nb": "Fremtider",
+			"hu": "T-Gépezet",
+			"it": "Futures",
+			"ne": "Toekomsten",
+			"pl": "Przyszłości"
+		},
+		"guild": {
+			"en": "Guilds",
+			"ko": "대가족",
+			"ct": "Meow",
+			"fr": "Guilde",
+			"pi": "Crew",
+			"lt": "Gildija",
+			"ne": "Gilde",
+			"sv": "Klan",
+			"es": "Gremio",
+			"it": "Gilda",
+			"nb": "Laug",
+			"hu": "Klán",
+			"pl": "Gildia"
+		},
+		"invites": {
+			"en": "Guild Invites",
+			"ne": "Gilde Uitnodigingen",
+			"fr": "Invitations de guilde",
+			"pi": "Guild Invites"
+		}
+	},
+	"notify": {
+		"incomingFracture": {
+			"en": "Sensors detect an incoming FRACTURE. It will intersect with your line at {{time}}.",
+			"pi": "Crow's nest has spotted an incoming FRACTARRR. It will hit your supply line at {{time}}.",
+			"nb": "Sensorer registrerer en innkommende FRAKSJON. Den vil krysse din linje på {{time}}",
+			"ne": "Er is een aankomende BREUK gedetecteerd. Hij snijdt met jouw tijdlijn op {{time}}.",
+			"fr": "Les capteurs ont détecté l'approche d'une FRACTURE. Elle croisera votre ligne à {{time}}",
+			"hu": "A szenzorok érzékeltek egy bejövő TÖRÉST. Metszeni fogja a te vonaladat {{time}}."
+		},
+		"startFracture": {
+			"en": "FRACTURE detected. Attempting to ascertain location relative to your line... Location determined.",
+			"pi": "FRACTARRR spotted. Plotting location on a map... Location plotted.",
+			"nb": "FRAKJON oppdaget. Forsøker å fastslå posisjon relativ til din linje... Posisjon fastslått.",
+			"ne": "BREUK gedetecteerd. Proberen locatie ten opzichte van jouw tijdlijn te bepalen... Locatie bepaald.",
+			"fr": "FRACTURE repérée. Tentative de localisation sur votre ligne... Position déterminée",
+			"hu": "TÖRÉS észlelve. Meghatározási kísérlet a vonal beméréséhez... helyzet bemérve."
+		}
+	},
+	"store": {
+		"futures": {
+			"en": "Futures",
+			"ne": "Toekomsten",
+			"fr": "Futures",
+			"hu": "Jövendők",
+			"pi": "Tomorrows",
+			"sv": "Framtid"
+		},
+		"conversions": {
+			"en": "Conversions",
+			"ne": "Omzettingen",
+			"fr": "Conversions",
+			"hu": "Konverziók",
+			"pi": "Currency exchangin'",
+			"sv": "Omvandlingar"
+		},
+		"fantasims": {
+			"en": "Fantasims",
+			"ne": "Fantasmes",
+			"fr": "Fanatismes",
+			"hu": "Fantasims",
+			"pi": "Fantasims",
+			"sv": "fantasims"
+		},
+		"compliment": {
+			"en": "T-Machine likes your style!",
+			"ne": "T-Machine houdt wel van jouw stijl!",
+			"fr": "T-Machine aime votre style !",
+			"hu": "T-Gépezet-nak tetszik a stílusod!",
+			"pi": "Bartender likes your style!",
+			"sv": "T-Machine gillar din stil!"
+		},
+		"fractureNeedA": {
+			"en": "T-Machine needs",
+			"ne": "T-Machine heeft nodig",
+			"fr": "T-Machine a besoin de",
+			"hu": "T-Gépezet szükséges",
+			"pi": "Bartender wants",
+			"sv": "T-machine behöver"
+		},
+		"fractureNeedB": {
+			"en": "fracture(s) to reach a new future.",
+			"ne": "breuk(en) om een nieuwe toekomst te bereiken.",
+			"fr": "fracture(s) pour atteindre un nouveau futur.",
+			"hu": "Törés(ek) hogy elérj egy új jövendőt.",
+			"pi": "fractarrr(s) to reach a new tomorrow.",
+			"sv": "Fraktur(er) som når en ny framtid"
+		},
+		"fractureHaveA": {
+			"en": "You have",
+			"ne": "Je hebt",
+			"fr": "Vous avez",
+			"hu": "Neked van",
+			"pi": "Ye have",
+			"sv": "Du har"
+		},
+		"fractureHaveB": {
+			"en": "fracture(s).",
+			"ne": "breuk(en).",
+			"fr": "fracture(s).",
+			"hu": "törés(ek).",
+			"pi": "fractarrr(s).",
+			"sv": "fraktur(er)"
+		}
+	},
+	"title": {
+		"gameName": {
+			"en": "FUTURISM",
+			"ko": "미래의 배",
+			"ct": "meow",
+			"fr": "FUTURISME",
+			"pi": "Day after Tomorrow",
+			"lt": "FUTURISM",
+			"ne": "FUTURISM",
+			"sv": "Futurism",
+			"es": "FUTURISMO",
+			"nb": "FUTURISME",
+			"it": "Futurismo",
+			"hu": "FUTURISM",
+			"pl": "FUTURISM"
+		},
+		"login": {
+			"en": "LOGIN",
+			"ko": "놀이",
+			"ct": "meow",
+			"fr": "CONNEXION",
+			"pi": "Sail the seven seas!",
+			"lt": "PRISIJUNGIMAS",
+			"ne": "LOG IN",
+			"sv": "Logga in",
+			"es": "Ingresar",
+			"nb": "Logg inn",
+			"it": "Entra",
+			"hu": "BELÉPÉS",
+			"pl": "Zaloguj sie"
+		},
+		"credits": {
+			"en": "CREDITS",
+			"ko": "인정함",
+			"ct": "meow",
+			"fr": "CRÉDITS",
+			"pi": "Captain's Logs",
+			"lt": "KŪRĖJAI",
+			"ne": "CREDITS",
+			"sv": "Medverkande",
+			"es": "Créditos",
+			"nb": "MEDVIRKENDE",
+			"it": "Ringraziamenti",
+			"hu": "KÉSZÍTŐK",
+			"pl": "Autorzy"
+		},
+		"instructions": {
+			"en": "VIDS",
+			"ko": "명령",
+			"ct": "meow",
+			"fr": "TUTORIELS",
+			"pi": "Davy Jones' Locker",
+			"lt": "INSTRUKCIJOS",
+			"ne": "Instructiefilmpjes",
+			"sv": "Instruktioner",
+			"es": "Videos educativos",
+			"nb": "INSTRUKSJONSVIDEOER",
+			"it": "Istruzioni",
+			"hu": "INSTRUKCIÓK",
+			"pl": "Instrukcje"
+		}
+	},
+	"userModal": {
+		"viewBans": {
+			"en": "View Bans",
+			"ne": "Bekijk Bans",
+			"fr": "Voir bannissements",
+			"pi": "View arrests"
+		},
+		"invite": {
+			"en": "Invite to Guild",
+			"ne": "Uitnodigen in Gilde",
+			"fr": "Inviter dans la guilde",
+			"pi": "Invite to Guild"
+		},
+		"deInvite": {
+			"en": "Un-Invite",
+			"ne": "Uitnodiging annuleren",
+			"fr": "Désinviter",
+			"pi": "Burn invitation"
+		},
+		"report": {
+			"en": "Report",
+			"ne": "Overtreding melden",
+			"fr": "Signaler",
+			"pi": "Tip off coppers"
+		},
+		"mod": {
+			"en": "Grant Mod",
+			"ne": "Maak Mod",
+			"fr": "Promouvoir mod",
+			"pi": "Promote (First Mate)"
+		},
+		"deMod": {
+			"en": "Revoke Mod",
+			"ne": "Ontneem Mod",
+			"fr": "Retirer mod",
+			"pi": "Demote (from First Mate)"
+		},
+		"apprentice": {
+			"en": "Grant Apprentice",
+			"ne": "Maak Leerling",
+			"fr": "Promouvoir apprenti",
+			"pi": "Promote (pirate)"
+		},
+		"deApprentice": {
+			"en": "Revoke Apprentice",
+			"ne": "Ontneem Leerling",
+			"fr": "Retirer apprenti",
+			"pi": "Demote (from apprentice)"
+		},
+		"ban": {
+			"en": "Ban",
+			"ne": "Ban",
+			"fr": "Bannir",
+			"pi": "Kick off ship"
+		},
+		"deBan": {
+			"en": "Lift Ban",
+			"ne": "Hef Ban op",
+			"fr": "Lever le bannissement",
+			"pi": "Extend gangplank"
+		},
+		"guildMod": {
+			"en": "Grant Guild Mod",
+			"ne": "Maak Gilde Mod",
+			"fr": "Promouvoir mod de guilde",
+			"pi": "Make First Mate of Guild"
+		},
+		"deGuildMod": {
+			"en": "Revoke Guild Mod",
+			"ne": "Ontneem Gilde Mod",
+			"fr": "Retirer mod de guilde",
+			"pi": "Demote from First Mate of Guild"
+		},
+		"kick": {
+			"en": "Kick from Guild",
+			"ne": "Uit Gilde verbannen",
+			"fr": "Renvoyer de la guilde",
+			"pi": "Kick from Guild"
+		},
+		"deKick": {
+			"en": "Revoke Kick",
+			"ne": "Verbanning herroepen",
+			"fr": "Retirer le renvoi",
+			"pi": "Undo kick"
+		},
+		"message": {
+			"en": "Message",
+			"ne": "Bericht",
+			"fr": "Message",
+			"pi": "Message in a bottle"
+		},
+		"cards": {
+			"en": "Cards",
+			"ne": "Kaarten",
+			"fr": "Cartes",
+			"pi": "Ships"
+		},
+		"close": {
+			"en": "Close",
+			"ne": "Sluiten",
+			"fr": "Fermer",
+			"pi": "Seal"
+		}
+	}
+}
