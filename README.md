@@ -51,7 +51,25 @@ This will install all of the shared dependencies.
 
 ## Client Setup
 
-NOTE: You can skip this step entirely by merging the provided futurism-client folder with Jiggmin's one. These instructions are only included to show how it was done, in case it becomes necessary in the future.
+Copy the following files and folders from futurism-shared to futurism-client:
+```
+node_modules
+models
+spec
+actions.js
+Board.js
+cardFns.js
+deckFns.js
+factions.js
+filters.js
+futures.js
+globe.js
+groups.js
+redisConnect.js
+redisSession.js
+```
+
+NOTE: You can skip the rest of this step entirely by merging the provided futurism-client folder with Jiggmin's one. These instructions are only included to show how it was done, in case it becomes necessary in the future.
 
 Open up a Bash terminal and enter the following commands:
 ```
@@ -215,7 +233,7 @@ Finally, create a folder named client in futurism-http and put everything in fut
 
 ## Starting the Server
 
-Put runServer.sh in the directory containing your futurism-http, futurism-multi, globe and redis folders and run it with the following commands:
+Open runServer.sh and modify lines 7-9 to use the actual paths to node and npm on your system (I've left my paths in as an example). Then just put runServer.sh in the directory containing your futurism-http, futurism-multi, globe and redis folders and run it with the following commands:
 ```
 cd /path/to/runServer.sh
 sudo ./runServer.sh
