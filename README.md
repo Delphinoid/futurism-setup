@@ -51,9 +51,8 @@ This will install all of the shared dependencies.
 
 ## Client Setup
 
-Copy the following files and folders from futurism-shared to futurism-client:
+Copy the following files and folders from futurism-shared to futurism-client/src:
 ```
-node_modules
 models
 spec
 actions.js
@@ -67,6 +66,10 @@ globe.js
 groups.js
 redisConnect.js
 redisSession.js
+```
+And copy this last folder to the main futurism-client directory:
+```
+node_modules
 ```
 
 NOTE: You can skip the rest of this step entirely by merging the provided futurism-client folder with Jiggmin's one. These instructions are only included to show how it was done, in case it becomes necessary in the future.
