@@ -140,9 +140,9 @@ npm install
 
 Now we should install MongoDB and Redis. Just type in the following to install MongoDB:
 ```
-sudo apt-get install redis-server
+sudo apt-get install mongodb
 ```
-Downloading and building Redis yourself instead of using apt-get install is actually a lot easier. I'm using Redis v2.8.9 (a very old version), which seems to be the version Jiggmin used. You can download it here:
+Downloading and building Redis yourself instead of using apt-get install is actually a lot easier. I'm using Redis v2.8.9 (a very old version), which seems to be the version Jiggmin used. You can use the version provided in this repository, or download it here:
 ```
 http://download.redis.io/releases/
 ```
@@ -169,16 +169,16 @@ Where pass is the password you want Redis to use for authentication. The usernam
 
 From now on, to start Redis, all we have to do is execute this command:
 ```
-sudo redis-server /path/to/Redis/redis.conf
+sudo redis-server /path/to/Redis/redis.conf --port port
 ```
-To shutdown Redis, execute these (closing the terminal window is not enough):
+Where port is the port to host on. The default is 6379. To shutdown Redis, execute these (closing the terminal window is not enough):
 ```
-redis-cli
+redis-cli -h host -p port
 AUTH pass
 shutdown
 exit
 ```
-Where pass is the password Redis is using for authentication.
+Where host is the host address (you may remove the -h option entirely if hosting locally), port is the redis-server port and pass is the password Redis is using for authentication.
 
 Now we can move onto configuring MongoDB. We have to start it first, so type in the following command:
 ```
@@ -202,9 +202,9 @@ Where "admin" and "pass" are once again the username and password MongoDB is usi
 
 From now on, to start MongoDB, all we have to do is execute this command:
 ```
-sudo mongod --auth
+sudo mongod --auth --port port
 ```
-To shutdown MongoDB, execute these (closing the terminal window is not enough):
+Where port is the port to host on. The default is 27017. To shutdown MongoDB, execute these (closing the terminal window is not enough):
 ```
 mongo
 use admin
@@ -225,7 +225,7 @@ module.exports = self;
 	
 Now we'll need to fill in some missing files. Once again, if you merged the provided futurism-http with your own, you can skip this step. Go to globe/server/fns/mongoose and copy validatedUpdate.js to futurism-http/fns/mongoose.
 
-Another missing file is env.js. I've included some base env.js files for you to use, but they still require some modification. For each one (globe/server/config/env.js, futurism-http/config/env.js and futurism-multi/config/env.js), change admin and pass in process.env.MONGO_URI and process.env.REDIS_URI to whatever you used for MongoDB and Redis authentication (the default username for Redis is admin), and change database in process.env.MONGO_URI to the name of the database you want to use (if you're lazy, admin works). Then just merge them with their respective folders.
+Another missing file is env.js. I've included some base env.js files for you to use, but they still require some modification. For each one (globe/server/config/env.js, futurism-http/config/env.js and futurism-multi/config/env.js), change admin and pass in process.env.MONGO_URI and process.env.REDIS_URI to whatever you used for MongoDB and Redis authentication (the default username for Redis is admin), and change database in process.env.MONGO_URI to the name of the database you want to use (if you're lazy, admin works). If you do not use the default ports for MongoDB and Redis (27017 and 6379 respectively), you will have to change them here too. Then just merge them with their respective folders.
 
 Finally, create a folder named client in futurism-http and put everything in futurism-client/src into it.
 
