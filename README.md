@@ -197,10 +197,10 @@ mongo
 use admin
 db.createUser({ user: "admin", pwd: "pass", roles: [ "root" ] })
 db.auth("admin", "pass")
-use database
+use futurism-development
 db.createUser({ user: "admin", pwd: "pass", roles: [ "dbOwner" ] })
 ```
-Where database in "use database" is the name of the database and "admin" and "pass" are the username and password used for authentication. If you want, you can remove users with the following commands:
+Where futurism-development is the name of the database and "admin" and "pass" are the username and password used for authentication. If you want, you can remove users with the following commands:
 ```
 mongo
 use admin
@@ -234,7 +234,7 @@ module.exports = self;
 	
 Now we'll need to fill in some missing files. Once again, if you merged the provided futurism-http with your own, you can skip this step. Go to globe/server/fns/mongoose and copy validatedUpdate.js to futurism-http/fns/mongoose.
 
-Another missing file is env.js. I've included some base env.js files for you to use, but they still require some modification. For each one (globe/server/config/env.js, futurism-http/config/env.js and futurism-multi/config/env.js), change admin and pass in process.env.MONGO_URI and process.env.REDIS_URI to whatever you used for MongoDB and Redis authentication (the default username for Redis is admin), and change database in process.env.MONGO_URI to the name of the database you want to use. If you do not use the default ports for MongoDB and Redis (27017 and 6379 respectively), you will have to change them here too. Then just merge them with their respective folders.
+Another missing file is env.js. I've included some base env.js files for you to use, but they still require some modification. For each one (globe/server/config/env.js, futurism-http/config/env.js and futurism-multi/config/env.js), change admin and pass in process.env.MONGO_URI and process.env.REDIS_URI to whatever you used for MongoDB and Redis authentication (the default username for Redis is admin), and change database in process.env.MONGO_URI to the name of the database you want to use (e.g. futurism-development). If you do not use the default ports for MongoDB and Redis (27017 and 6379 respectively), you will have to change them here too. Then just merge them with their respective folders.
 
 Finally, create a folder named client in futurism-http and put everything in futurism-client/src into it.
 
