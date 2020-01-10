@@ -138,6 +138,10 @@ cd /path/to/globe
 npm install
 ```
 
+
+
+## Database Setup
+
 Now we should install MongoDB and Redis. Just type in the following to install MongoDB:
 ```
 sudo apt-get install mongodb
@@ -202,9 +206,9 @@ Where "admin" and "pass" are once again the username and password MongoDB is usi
 
 From now on, to start MongoDB, all we have to do is execute this command:
 ```
-sudo mongod --auth --port port
+sudo mongod --auth --port port --bind_ip address1,address2,...
 ```
-Where port is the port to host on. The default is 27017. To shutdown MongoDB, execute these (closing the terminal window is not enough):
+Where port is the port to host on and address1,address2,... are the addresses to bind to. Note that by default it will only bind to the loopback address. If unsure, replace --bind_ip and its arguments with --bind_ip_all. The default port is 27017. To shutdown MongoDB, execute these (closing the terminal window is not enough):
 ```
 mongo
 use admin
@@ -233,12 +237,15 @@ Finally, create a folder named client in futurism-http and put everything in fut
 
 ## Starting the Server
 
-Open runServer.sh and modify lines 7-9 to use the actual paths to node and npm on your system (I've left my paths in as an example). Then just put runServer.sh in the directory containing your futurism-http, futurism-multi, globe and redis folders and run it with the following commands:
+Open runServer.sh and modify lines 3-5 to use the actual paths to node and npm on your system (I've left my paths in as an example). You can also change the default port and bind addresses in runDatabase.sh. Then just put them directory containing your futurism-http, futurism-multi, globe and redis folders and run them with the following commands:
 ```
 cd /path/to/runServer.sh
+sudo ./runDatabase.sh
 sudo ./runServer.sh
 ```
-If it doesn't work, try executing this command and retrying:
+If it doesn't work, try executing these commands and retrying:
 ```
+chmod +x runDatabase.sh
 chmod +x runServer.sh
 ```
+Please give the databases time to start before starting globe, multi and http.
