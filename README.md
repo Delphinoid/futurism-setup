@@ -141,6 +141,8 @@ cd /path/to/globe
 npm install
 ```
 
+After running npm install in futurism-multi, merge the futurism-multi/node_modules folder in this repository with the one you have. A file from one of the dependencies seems to produce an error, so a fixed version has been provided.
+
 
 
 ## Database Setup
@@ -185,7 +187,7 @@ AUTH pass
 shutdown
 exit
 ```
-Where host is the host address (you may remove the -h option entirely if hosting locally), port is the redis-server port and pass is the password Redis is using for authentication.
+Where host is the host address (you may remove the -h option entirely if hosting locally), port is the redis-server port and pass is the password Redis is using for authentication. The Redis client (redis-cli) can also be used to monitor redis-server.
 
 Now we can move onto configuring MongoDB. We have to start it first, so type in the following command:
 ```
@@ -242,7 +244,7 @@ Finally, create a folder named client in futurism-http and put everything in fut
 
 ## Starting the Server
 
-Open runServer.sh and modify lines 3-5 to use the actual paths to node and npm on your system (I've left my paths in as an example). You can also change the default port and bind addresses in runDatabase.sh. Then just put them directory containing your futurism-http, futurism-multi, globe and redis folders and run them with the following commands:
+Open runServer.sh and modify lines 3-5 to use the actual paths to node and npm on your system (I've left my paths in as an example). You can also change the default port and bind addresses in both runDatabase.sh and runServer.sh. Then just put them directory containing your futurism-http, futurism-multi, globe and redis folders and run them with the following commands:
 ```
 cd /path/to/runServer.sh
 sudo ./runDatabase.sh
