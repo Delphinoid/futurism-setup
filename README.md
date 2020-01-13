@@ -155,9 +155,9 @@ There is also a list of Windows binaries here, but this guide will be written fo
 ```
 https://www.mongodb.org/dl/win32/
 ```
-Any version <= 2.6 should be compatible with the Node.js MongoDB driver that Futurism uses, but only version 2.2.7 has been tested.
+Any version <= 2.6 should be compatible with the Node.js MongoDB driver that Futurism uses, but only version 2.2.7 has been tested. When it has downloaded, extract the binaries from the archive.
 
-With that done, we can configure MongoDB. First, start run the following command to set up the database directory:
+With that done, we can configure MongoDB. First, run the following command to set up the database directory:
 ```
 sudo mkdir -p /data/db
 ```
@@ -219,9 +219,9 @@ Redis v2.8.9 seems to be the version Jiggmin used. You can use the version provi
 ```
 http://download.redis.io/releases/
 ```
-After downloading Redis, we'll have to install and configure it. Type in the following commands:
+After downloading Redis, we'll have to install and configure it. Decompress the archive and type in the following commands:
 ```
-cd /path/to/Redis
+cd /path/to/redis
 make
 ```
 This will build Redis. Once that has finished, go to the src folder in your Redis directory and copy the following files to your /bin folder:
@@ -241,11 +241,11 @@ Where pass is the password you want Redis to use for authentication. The usernam
 
 From now on, to start Redis, all we have to do is execute this command:
 ```
-sudo redis-server /path/to/Redis/redis.conf --port port
+sudo /path/to/redis-server /path/to/redis.conf --port port
 ```
-Where port is the port to host on. The default is 6379. To shutdown Redis, execute these (closing the terminal window is not enough):
+Where port is the port to host on: the default is 6379. /path/to is the path to your Redis binaries, which should be the bin subdirectoy of the folder downloaded previously. To shutdown Redis, execute these (closing the terminal window is not enough):
 ```
-redis-cli -h host -p port
+/path/to/redis-cli -h host -p port
 AUTH pass
 shutdown
 exit
