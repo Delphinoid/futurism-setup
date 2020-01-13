@@ -1,7 +1,7 @@
 process.env.NODE_ENV = 'development';
 process.env.PORT = '9002';
 
-process.env.MONGO_URI = 'mongodb://admin:pass@localhost:27017/futurism-development';
+process.env.MONGO_URI = 'mongodb://admin:pass@localhost:27017/globe';
 process.env.REDIS_URI = 'redis://admin:pass@localhost:6379/';
 
 process.env.FUTURISM_FACEBOOK_APP_ID = '';

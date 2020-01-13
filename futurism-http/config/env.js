@@ -11,4 +11,4 @@ process.env.S3_BUCKET = 'awesome-bucket';
 process.env.S3_KEY = '';
 process.env.S3_SECRET_KEY = '';
 
-process.env.GAME_SERVERS = 'localhost:9100';
+process.env.GAME_SERVERS = 'http://localhost:9100/';

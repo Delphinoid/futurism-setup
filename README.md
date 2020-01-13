@@ -147,15 +147,78 @@ After running npm install in futurism-multi, merge the futurism-multi/node_modul
 
 ## Database Setup
 
-Now we should install MongoDB and Redis. Just type in the following to install MongoDB:
+Now we should install MongoDB and Redis. We need fairly old versions of both of these. We'll start by getting MongoDB. You can find a list of Linux binaries here:
 ```
-sudo apt-get install mongodb
+https://www.mongodb.org/dl/linux/
 ```
-Downloading and building Redis yourself instead of using apt-get install is actually a lot easier. I'm using Redis v2.8.9 (a very old version), which seems to be the version Jiggmin used. You can use the version provided in this repository, or download it here:
+There is also a list of Windows binaries here, but this guide will be written for Linux only:
+```
+https://www.mongodb.org/dl/win32/
+```
+Any version <= 2.6 should be compatible with the Node.js MongoDB driver that Futurism uses, but only version 2.2.7 has been tested.
+
+With that done, we can configure MongoDB. First, start run the following command to set up the database directory:
+```
+sudo mkdir -p /data/db
+```
+From now on, to start MongoDB, all we have to do is execute this command:
+```
+sudo /path/to/mongod --auth --port port --bind_ip address1,address2,...
+```
+Where port is the port to host on and address1,address2,... are the addresses to bind to. /path/to is the path to your MongoDB binaries, which should be the bin subdirectoy of the folder downloaded previously. Note that by default it will only bind to the loopback address. The default port is 27017. To shutdown MongoDB, execute these (closing the terminal window is not enough):
+```
+sudo /path/to/mongo --port port
+use admin
+db.auth("admin", "pass")
+db.shutdownServer()
+exit
+```
+
+We can now set up the database as required by Futurism. Start the server with the command above, and follow the instructions below. If you are using a version below v2.6, do the following:
+```
+sudo /path/to/mongo
+use admin
+db.addUser("admin", "pass", false)
+db.auth("admin", "pass")
+use futurism
+db.addUser("admin", "pass", false)
+use globe
+db.addUser("admin", "pass", false)
+```
+Otherwise use this:
+```
+sudo /path/to/mongo
+use admin
+db.createUser({ user: "admin", pwd: "pass", roles: [ "root" ] })
+db.auth("admin", "pass")
+use futurism
+db.createUser({ user: "admin", pwd: "pass", roles: [ "dbOwner" ] })
+use globe
+db.createUser({ user: "admin", pwd: "pass", roles: [ "dbOwner" ] })
+```
+Note that in this example, futurism-development is the name of Futurism's database and globe is the name of globe's database. We have also created users in these databases (as well as MongoDB's administration "database"). These do not need to have the same credentials. "admin" and "pass" are the username and password used for authentication when connecting to these databases. If you want, you can remove users with the following commands:
+```
+sudo /path/to/mongo
+use admin
+db.auth("admin", "pass")
+use futurism-development
+db.dropUser("admin")
+```
+Where "admin" and "pass" are once again the username and password MongoDB is using for authentication. To show a list of collections in a particular database, as well as the documents in the collection, you can use the following commands:
+```
+sudo /path/to/mongo
+use admin
+db.auth("admin", "pass")
+use globe
+show collections
+db.users.find()
+```
+Where show collections will show a list of all collections on the globe database, and db.users.find() lists all of the documents in the users collection.
+
+Redis v2.8.9 seems to be the version Jiggmin used. You can use the version provided in this repository, or download it here:
 ```
 http://download.redis.io/releases/
 ```
-
 After downloading Redis, we'll have to install and configure it. Type in the following commands:
 ```
 cd /path/to/Redis
@@ -189,41 +252,6 @@ exit
 ```
 Where host is the host address (you may remove the -h option entirely if hosting locally), port is the redis-server port and pass is the password Redis is using for authentication. The Redis client (redis-cli) can also be used to monitor redis-server.
 
-Now we can move onto configuring MongoDB. We have to start it first, so type in the following command:
-```
-sudo mongod
-```
-If this doesn't work, create the /data/db directory that MongoDB expects and try again. When it's running, open a new terminal and type in the following:
-```
-mongo
-use admin
-db.createUser({ user: "admin", pwd: "pass", roles: [ "root" ] })
-db.auth("admin", "pass")
-use futurism-development
-db.createUser({ user: "admin", pwd: "pass", roles: [ "dbOwner" ] })
-```
-Where futurism-development is the name of the database and "admin" and "pass" are the username and password used for authentication. If you want, you can remove users with the following commands:
-```
-mongo
-use admin
-db.auth("admin", "pass")
-db.dropUser("admin")
-```
-Where "admin" and "pass" are once again the username and password MongoDB is using for authentication.
-
-From now on, to start MongoDB, all we have to do is execute this command:
-```
-sudo mongod --auth --port port --bind_ip address1,address2,...
-```
-Where port is the port to host on and address1,address2,... are the addresses to bind to. Note that by default it will only bind to the loopback address. If unsure, replace --bind_ip and its arguments with --bind_ip_all. The default port is 27017. To shutdown MongoDB, execute these (closing the terminal window is not enough):
-```
-mongo
-use admin
-db.auth("admin", "pass")
-db.shutdownServer()
-exit
-```
-
 Once all of that is done, there's one file we'll have to change. If you merged the provided futurism-http with your own, you can skip this step. Open up futurism-http/routes/records.js and add the following line to the beginning:
 ```
 (function() {
@@ -236,7 +264,13 @@ module.exports = self;
 	
 Now we'll need to fill in some missing files. Once again, if you merged the provided futurism-http with your own, you can skip this step. Go to globe/server/fns/mongoose and copy validatedUpdate.js to futurism-http/fns/mongoose.
 
-Another missing file is env.js. I've included some base env.js files for you to use, but they still require some modification. For each one (globe/server/config/env.js, futurism-http/config/env.js and futurism-multi/config/env.js), change admin and pass in process.env.MONGO_URI and process.env.REDIS_URI to whatever you used for MongoDB and Redis authentication (the default username for Redis is admin), and change database in process.env.MONGO_URI to the name of the database you want to use (e.g. futurism-development). If you do not use the default ports for MongoDB and Redis (27017 and 6379 respectively), you will have to change them here too. Then just merge them with their respective folders.
+Another missing file is env.js. I've included some base env.js files for you to use, but they still require some modification. For each one (globe/server/config/env.js, futurism-http/config/env.js and futurism-multi/config/env.js), change admin and pass in process.env.MONGO_URI and process.env.REDIS_URI to whatever you used for MongoDB and Redis authentication (the default username for Redis is admin), and change database in process.env.MONGO_URI to the name of the database you want to use (e.g. futurism-development for futurism-http and futurism-multi, and globe for globe). If you do not use the default ports for MongoDB and Redis (27017 and 6379 respectively), you will have to change them here too. Then just merge them with their respective folders.
+
+In order to set up alternative lobbies and game servers, modify process.env.GAME_SERVERS in futurism-http's env.js to be a comma-separated list of servers. For example:
+```
+process.env.GAME_SERVERS = 'http://localhost:9100/,http://localhost:9101/,http://localhost:9102/';
+```
+You can then modify the lobby definitions in futurism-http/config/defaultLobbies.js, or potentially on the database. Server indices start on 1 (so server: 1 refers to the first server in process.env.GAME_SERVERS, not the second). These addresses are served to the client. Therefore they must be publicly-accessible addresses, and not local addresses such as localhost.
 
 Finally, create a folder named client in futurism-http and put everything in futurism-client/src into it.
 
