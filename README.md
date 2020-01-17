@@ -8,11 +8,11 @@ This repository simply contains a guide for setting up Futurism, and some extra 
 
 Download or clone the following repositories:
 ```
-https://github.com/Jiggmin/futurism-shared
-https://github.com/Jiggmin/futurism-client
-https://github.com/Jiggmin/futurism-multi
-https://github.com/Jiggmin/futurism-http
-https://github.com/Jiggmin/globe
+https://github.com/Delphinoid/futurism-shared
+https://github.com/Delphinoid/futurism-client
+https://github.com/Delphinoid/futurism-multi
+https://github.com/Delphinoid/futurism-http
+https://github.com/Delphinoid/globe
 ```
 Make sure you put all of these in the same folder, and if you decide to download them as zipped archives please remove -master from the folder names after extracting them as well.
 
