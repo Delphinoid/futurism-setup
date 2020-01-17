@@ -79,7 +79,7 @@
             <h1>{{lang.game.futures}}</h1>
             <a class="close-x" ng-click="closeHand()">{{lang.game.close}} [x]</a>
             <ul class="future-list clearfix">
-                <li ng-repeat="future in hand.futures track by $index">
+                <li ng-repeat="future in players.findMe().futures track by $index">
                     <future-display ng-click="pickFutureFromHand(future)" class="cursor-pointer" future="{{future}}"></future-display>
                 </li>
             </ul>

@@ -289,6 +289,9 @@ futurism-client/src/views/game.html
 	Line 69
 		- <li ng-repeat="card in hand.cards">
 		+ <li ng-repeat="card in players.findMe().hand">
+	Line 82
+		- <li ng-repeat="future in hand.futures track by $index">
+		+ <li ng-repeat="future in players.findMe().futures track by $index">
 
 futurism-client/src/images/sites/a-32x32.png
 futurism-client/src/images/sites/f-32x32.png
