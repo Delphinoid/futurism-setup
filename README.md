@@ -83,13 +83,7 @@ bower install fastclick
 ```
 This will change the current working directory to futurism-client and install all of the dependencies in package.json and bower.json, as well as some packages that Jiggmin forgot to include in his dependency lists.
 
-Now you have a choice. You can either open futurism-client/src/index.html in a text editor and change line 120 to the following:
-```
-<script src="bower_components/angular-truncate/src/truncate.js"></script>
-```
-Or you can go to futurism-client/src/bower-components/angular-truncate/ and copy the src folder, rename it dist, and then rename futurism-client/src/bower-components/angular-truncate/dist/truncate.js to angular-truncate.js.
-
-One last thing Jiggmin seems to have forgotten are the 32x32 site icons. Go to futurism-client/src/images/sites and make copies of all the images, but add -32x32 to their names. Then just resize them to 32x32 and you should be done. Make sure to set the resampling method to "Nearest Neighbour" so the result isn't blurry though.
+At the very bottom of this document is a list of changes to be made to the client. For the site images, resize what is in Jiggmin's repository to 32x32 (preferably with Nearest Neighbour) and add "-32x32" to the file names.
 
 We should be able to test it now. Just enter the following command:
 ```
@@ -251,20 +245,10 @@ shutdown
 exit
 ```
 Where host is the host address (you may remove the -h option entirely if hosting locally), port is the redis-server port and pass is the password Redis is using for authentication. The Redis client (redis-cli) can also be used to monitor redis-server.
-
-Once all of that is done, there's one file we'll have to change. If you merged the provided futurism-http with your own, you can skip this step. Open up futurism-http/routes/records.js and add the following line to the beginning:
-```
-(function() {
-```
-Then add the following lines to the end:
-```
-module.exports = self;
-}());
-```
 	
-Now we'll need to fill in some missing files. Once again, if you merged the provided futurism-http with your own, you can skip this step. Go to globe/server/fns/mongoose and copy validatedUpdate.js to futurism-http/fns/mongoose.
+Now merge the provided futurism-http folder with your own. This adds some required files and fixes some that are broken. One file in particular, env.js, still needs configuring, however.
 
-Another missing file is env.js. I've included some base env.js files for you to use, but they still require some modification. For each one (globe/server/config/env.js, futurism-http/config/env.js and futurism-multi/config/env.js), change admin and pass in process.env.MONGO_URI and process.env.REDIS_URI to whatever you used for MongoDB and Redis authentication (the default username for Redis is admin), and change database in process.env.MONGO_URI to the name of the database you want to use (e.g. futurism-development for futurism-http and futurism-multi, and globe for globe). If you do not use the default ports for MongoDB and Redis (27017 and 6379 respectively), you will have to change them here too. Then just merge them with their respective folders.
+I've included some base env.js files for you to use, but they still require some modification. For each one (globe/server/config/env.js, futurism-http/config/env.js and futurism-multi/config/env.js), change admin and pass in process.env.MONGO_URI and process.env.REDIS_URI to whatever you used for MongoDB and Redis authentication (the default username for Redis is admin), and change database in process.env.MONGO_URI to the name of the database you want to use (e.g. futurism-development for futurism-http and futurism-multi, and globe for globe). If you do not use the default ports for MongoDB and Redis (27017 and 6379 respectively), you will have to change them here too. Then just merge them with their respective folders.
 
 In order to set up alternative lobbies and game servers, modify process.env.GAME_SERVERS in futurism-http's env.js to be a comma-separated list of servers. For example:
 ```
@@ -290,3 +274,38 @@ chmod +x runDatabase.sh
 chmod +x runServer.sh
 ```
 Please give the databases time to start before starting globe, multi and http.
+
+
+
+## List of Changes
+
+futurism-client/src/index.html
+	Line 120
+		- <script src="bower_components/angular-truncate/dist/angular-truncate.js"></script>
+		+ <script src="bower_components/angular-truncate/src/truncate.js"></script>
+
+futurism-client/src/views/game.html
+	Line 69
+		- <li ng-repeat="card in hand.cards">
+		+ <li ng-repeat="card in players.findMe().hand">
+
+futurism-client/src/images/sites/a-32x32.png
+futurism-client/src/images/sites/f-32x32.png
+futurism-client/src/images/sites/g-32x32.png
+futurism-client/src/images/sites/j-32x32.png
+futurism-client/src/images/sites/k-32x32.png
+futurism-client/src/images/sites/n-32x32.png
+
+futurism-http/fns/mongoose/validatedUpdate.js
+	= globe/server/fns/mongoose/validatedUpdate.js
+
+futurism-http/routes/records.js
+	Line 1
+		+ (function(){
+	Line 25
+		+ module.exports = self; }());
+
+futurism-http/middleware/proxy.js
+	Line 15
+		- proxy.web(req, res, {target: targetUri, secure: secure});
+		+ proxy.web(req, res, {target: targetUri, secure: secure, xfwd: true});
