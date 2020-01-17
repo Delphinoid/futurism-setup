@@ -277,8 +277,9 @@ Please give the databases time to start before starting globe, multi and http.
 
 
 
-## List of Changes
+## Changelist
 
+```
 futurism-client/src/index.html
 	Line 120
 		- <script src="bower_components/angular-truncate/dist/angular-truncate.js"></script>
@@ -309,3 +310,4 @@ futurism-http/middleware/proxy.js
 	Line 15
 		- proxy.web(req, res, {target: targetUri, secure: secure});
 		+ proxy.web(req, res, {target: targetUri, secure: secure, xfwd: true});
+```
