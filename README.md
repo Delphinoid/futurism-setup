@@ -51,10 +51,8 @@ This will install all of the shared dependencies.
 
 ## Client Setup
 
-Copy the following files and folders from futurism-shared to futurism-client/src:
+Copy the following files from futurism-shared to futurism-client/src:
 ```
-models
-spec
 actions.js
 Board.js
 cardFns.js
@@ -62,10 +60,7 @@ deckFns.js
 factions.js
 filters.js
 futures.js
-globe.js
 groups.js
-redisConnect.js
-redisSession.js
 ```
 And copy this last folder to the main futurism-client directory:
 ```
@@ -95,14 +90,25 @@ If this works, go to futurism-client, right-click and select "Show Hidden" in th
 
 ## Server Setup
 
-Copy the following files and folders from futurism-shared to futurism-multi/shared and futurism-http/shared:
+Copy the following files and folders from futurism-shared to futurism-http/shared:
 ```
 models
-spec
+factions.js
+futures.js
+globe.js
+groups.js
+redisConnect.js
+redisSession.js
+```
+And copy the following files and folders from futurism-shared to futurism-multi/shared:
+```
+models/Card.js
+models/Deck.js
+models/Progress.js
+models/Record.js
 actions.js
 Board.js
 cardFns.js
-deckFns.js
 factions.js
 filters.js
 futures.js
@@ -111,7 +117,7 @@ groups.js
 redisConnect.js
 redisSession.js
 ```
-And copy this last folder to the main futurism-multi and futurism-http directories:
+Then just copy this last folder to the main futurism-multi and futurism-http directories:
 ```
 node_modules
 ```
