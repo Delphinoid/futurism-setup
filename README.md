@@ -1,6 +1,6 @@
 # What is this?
 
-This repository simply contains a guide for setting up Futurism, and some extra files needed for doing so.
+This repository simply contains a guide for setting up Futurism, and some extra files needed for doing so. It also contains fixes for certain functionality that was broken in the original version.
 
 
 
@@ -298,6 +298,11 @@ futurism-client/src/views/game.html
 	Line 82
 		- <li ng-repeat="future in hand.futures track by $index">
 		+ <li ng-repeat="future in players.findMe().futures track by $index">
+	
+futurism-client/src/views/card-display.html
+	Line 34
+		- <div class="card-pride">{{card.pride}} ₱</div>
+		+ <div class="card-pride">{{(card.pride != undefined ? card.pride : (card.abilities.length + 1*card.attack + 1*card.health))}} ₱</div>
 
 futurism-client/src/images/sites/a-32x32.png
 futurism-client/src/images/sites/f-32x32.png
