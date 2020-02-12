@@ -303,6 +303,11 @@ futurism-client/src/views/card-display.html
 	Line 34
 		- <div class="card-pride">{{card.pride}} ₱</div>
 		+ <div class="card-pride">{{(card.pride != undefined ? card.pride : (card.abilities.length + 1*card.attack + 1*card.health))}} ₱</div>
+	
+futurism-client/src/views/game-end-modal.html
+	Line 8
+		- <progressbar value="myResults.exp / myResults.expNeede" type="success"></progressbar>
+		+ <progressbar value="myResults.exp / myResults.expNeeded" type="success"></progressbar>
 
 futurism-client/src/images/sites/a-32x32.png
 futurism-client/src/images/sites/f-32x32.png
